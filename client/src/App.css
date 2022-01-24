@@ -62,6 +62,11 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  transition: .2s;
+  cursor: pointer;
+}
+.header-btn:hover {
+  background-color: #448FF2;
 }
 .header-btn:first-child {
   margin-right: 25px;
@@ -72,4 +77,11 @@
   background-size: contain;
   height: 28px;
   width: 25px;
+}
+.btn-icon-lang {
+  background-image: url(../public/lang.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 35px;
+  height: 29px;
 }
