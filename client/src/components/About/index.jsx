@@ -1,5 +1,12 @@
 import './style.css';
 
-const About = () => <div className="about">About</div>;
+function About() {
+    return (
+        <div className="about">
+            About
+            <div className="mission">Миссия компании</div>
+        </div> 
+    );
+} 
 
 export default About;
