@@ -1,0 +1,34 @@
+.landing {
+  height: calc(200vh - 80px);
+  padding-left: 5%;
+  padding-top: 5%;
+  position: relative;
+}
+.landing-title {
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 114.19%;
+  background: -webkit-linear-gradient(#046cf3, #000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.landing-subtitle {
+  display: block;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 151.19%;
+  text-transform: uppercase;
+  width: 650px;
+}
+.hero-world {
+  background-image: url(../../../public/hero-world.svg);
+  position: absolute;
+  width: 624px;
+  height: 546px;
+  background-size: contain;
+  top: 15%;
+  right: 15%;
+  background-repeat: no-repeat;
+}

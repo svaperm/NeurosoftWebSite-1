@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 import './style.css';
 
 const Header = () => (
@@ -7,34 +7,64 @@ const Header = () => (
     <nav className="header-nav">
       <ul className="header-nav">
         <li>
-          <Link to="/" className="nav-link">
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              isActive ? 'nav-link active-link' : 'nav-link'
+            }
+          >
             Главная
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/about" className="nav-link">
+          <NavLink
+            to="/about"
+            className={({ isActive }) =>
+              isActive ? 'nav-link active-link' : 'nav-link'
+            }
+          >
             О компании
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/services" className="nav-link">
+          <NavLink
+            to="/services"
+            className={({ isActive }) =>
+              isActive ? 'nav-link active-link' : 'nav-link'
+            }
+          >
             Услуги
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/support" className="nav-link">
+          <NavLink
+            to="/support"
+            className={({ isActive }) =>
+              isActive ? 'nav-link active-link' : 'nav-link'
+            }
+          >
             Поддержка для клиентов
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/vacancies" className="nav-link">
+          <NavLink
+            to="/vacancies"
+            className={({ isActive }) =>
+              isActive ? 'nav-link active-link' : 'nav-link'
+            }
+          >
             Вакансии
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/vacancies" className="last-link">
+          <NavLink
+            to="/solutions"
+            className={({ isActive }) =>
+              isActive ? 'last-link active-link' : 'last-link'
+            }
+          >
             Готовые решения
-          </Link>
+          </NavLink>
         </li>
       </ul>
     </nav>
