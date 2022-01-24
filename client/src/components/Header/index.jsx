@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import Nav from './components/Nav';
 import './style.css';
 
 const Header = () => (
@@ -6,66 +7,7 @@ const Header = () => (
     <div className="logo"></div>
     <nav className="header-nav">
       <ul className="header-nav">
-        <li>
-          <NavLink
-            to="/"
-            className={({ isActive }) =>
-              isActive ? 'nav-link active-link' : 'nav-link'
-            }
-          >
-            Главная
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            to="/about"
-            className={({ isActive }) =>
-              isActive ? 'nav-link active-link' : 'nav-link'
-            }
-          >
-            О компании
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            to="/services"
-            className={({ isActive }) =>
-              isActive ? 'nav-link active-link' : 'nav-link'
-            }
-          >
-            Услуги
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            to="/support"
-            className={({ isActive }) =>
-              isActive ? 'nav-link active-link' : 'nav-link'
-            }
-          >
-            Поддержка для клиентов
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            to="/vacancies"
-            className={({ isActive }) =>
-              isActive ? 'nav-link active-link' : 'nav-link'
-            }
-          >
-            Вакансии
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            to="/solutions"
-            className={({ isActive }) =>
-              isActive ? 'last-link active-link' : 'last-link'
-            }
-          >
-            Готовые решения
-          </NavLink>
-        </li>
+       <Nav />
       </ul>
     </nav>
     <div className="header-btns">

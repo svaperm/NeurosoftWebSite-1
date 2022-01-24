@@ -1,8 +1,11 @@
 .landing {
-  height: calc(200vh - 80px);
   padding-left: 5%;
+  padding-right: 5%;
   padding-top: 5%;
   position: relative;
+}
+.landing-hero {
+  height: calc(85vh - 80px);
 }
 .landing-title {
   font-weight: 900;
@@ -21,6 +24,7 @@
   line-height: 151.19%;
   text-transform: uppercase;
   width: 650px;
+  background: rgba(255, 255, 255, 0.86);
 }
 .hero-world {
   background-image: url(../../../public/hero-world.svg);
@@ -28,7 +32,55 @@
   width: 624px;
   height: 546px;
   background-size: contain;
-  top: 15%;
+  top: 12%;
   right: 15%;
   background-repeat: no-repeat;
+}
+.landing-services-item {
+  width: 250px;
+  height: 250px;
+  background: radial-gradient(
+    56.2% 56.2% at 50% 50%,
+    #448ff2 0%,
+    rgba(68, 143, 242, 0.56) 37.5%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.landing-container-title {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  margin-bottom: 80px;
+}
+.landing-services {
+  display: flex;
+  justify-content: space-between;
+}
+.landing-container {
+  background: rgba(255, 255, 255, 0.86);
+  border-radius: 5px;
+  padding: 40px 100px;
+  padding-bottom: 70px;
+  margin-bottom: 100px;
+}
+.service-img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 160px;
+}
+.service-img-1 {
+  background-image: url(../../../public/service-img.png);
+}
+.service-img-2 {
+  background-image: url(../../../public/project-management.png);
+}
+.service-img-3 {
+  background-image: url(../../../public/technology.png);
+}
+.service-img-4 {
+  background-image: url(../../../public/networking.png);
 }

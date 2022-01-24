@@ -2,14 +2,60 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
+ul {
+  list-style-type: none;
+}
 .container {
   background: url(../public/hero.jpg);
   height: 100%;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   background-repeat: repeat-y;
   background-size: 100%;
 }
 .App {
   width: 1900px;
   overflow: hidden;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 5%;
+  background-color: #F2F2F2;
+  font-weight: 300;
+}
+.footer-nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 100px;
+  flex-wrap: wrap;
+}
+.footer-nav .nav-link::after {
+  content: '';
+}
+.social-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 170px;
+  padding: 0;
+}
+.social-item {
+  display: flex;
+  width: 35px;
+  height: 35px;
+  background-size: contain;
+}
+.instagram {
+  background-image: url(../public/inst.png);
+}
+.facebook {
+  background-image: url(../public/fb.png);
+}
+.telegram {
+  background-image: url(../public/tg.png);
+}
+.vk {
+  background-image: url(../public/vk.png);
 }
