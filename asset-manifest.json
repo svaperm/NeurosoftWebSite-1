@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/NeurosoftWebSite/client/deploy/static/css/main.488b8cb1.css",
-    "main.js": "/NeurosoftWebSite/client/deploy/static/js/main.9a4920cd.js",
+    "main.css": "/NeurosoftWebSite/client/deploy/static/css/main.9a6ba65b.css",
+    "main.js": "/NeurosoftWebSite/client/deploy/static/js/main.38f43cdf.js",
     "static/js/787.e234a9f2.chunk.js": "/NeurosoftWebSite/client/deploy/static/js/787.e234a9f2.chunk.js",
     "static/media/hero.jpg": "/NeurosoftWebSite/client/deploy/static/media/hero.60cd1b7240a1cd04cd4c.jpg",
     "static/media/logo.png": "/NeurosoftWebSite/client/deploy/static/media/logo.43b243d14e60ad2540f4.png",
-    "static/media/hero-world.svg": "/NeurosoftWebSite/client/deploy/static/media/hero-world.ef8670871330982603e2.svg",
+    "static/media/hero-world.svg": "/NeurosoftWebSite/client/deploy/static/media/hero-world.39590fcfe0d726a7f20a.svg",
     "index.html": "/NeurosoftWebSite/client/deploy/index.html",
-    "main.488b8cb1.css.map": "/NeurosoftWebSite/client/deploy/static/css/main.488b8cb1.css.map",
-    "main.9a4920cd.js.map": "/NeurosoftWebSite/client/deploy/static/js/main.9a4920cd.js.map",
+    "main.9a6ba65b.css.map": "/NeurosoftWebSite/client/deploy/static/css/main.9a6ba65b.css.map",
+    "main.38f43cdf.js.map": "/NeurosoftWebSite/client/deploy/static/js/main.38f43cdf.js.map",
     "787.e234a9f2.chunk.js.map": "/NeurosoftWebSite/client/deploy/static/js/787.e234a9f2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.488b8cb1.css",
-    "static/js/main.9a4920cd.js"
+    "static/css/main.9a6ba65b.css",
+    "static/js/main.38f43cdf.js"
   ]
 }
