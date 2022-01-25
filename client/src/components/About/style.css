@@ -1,5 +1,162 @@
-.mission{
+.about {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    position: relative;
+  }
+
+  .about-hero {
+    height: calc(60vh - 80px);
+
+    display: block;
+    text-align: center;
+  }
+
+  .mission{
+    font-weight: bold;
+    font-size: 96px;
+    background: conic-gradient(from 180deg at 50% 50%, #F2A007 -7.5deg, rgba(0, 71, 255, 0.9) 46.87deg, #F2A007 110.62deg, #0773FF 157.5deg, #F2A007 236.25deg, #F2A007 249.37deg, rgba(114, 132, 134, 0.994903) 260.62deg, rgba(114, 132, 134, 0.994903) 260.66deg, rgba(12, 110, 235, 0.990841) 269.59deg, #F2A007 269.63deg, rgba(114, 132, 134, 0.994903) 290.63deg, #F2A007 309.38deg, #F2A007 318.75deg, #F2A007 352.5deg, rgba(0, 71, 255, 0.9) 406.88deg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-weight: 900;
+    line-height: 114.19%;
+}
+
+  .about-subtitle {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 151.19%;
+    text-transform: uppercase;
+    width: 650px;
+    background: rgba(255, 255, 255, 0.86);
+  }
+
+  .about-container {
+    background: rgba(255, 255, 255, 0.86);
+    border-radius: 5px;
+    padding: 40px 100px;
+    padding-bottom: 70px;
+    margin-bottom: 100px;
+  }
+
+  .about-container-title {
     font-weight: bold;
     font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 80px;
+
+    color: #056CF2;
+    text-decoration: underline;
     text-align: center;
-}
+  }
+
+
+  .workers-img {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 160px;
+    border-radius: 90%;
+  }
+
+  .about-workers-item {
+    width: 250px;
+    height: 250px;
+    background: radial-gradient(
+      56.2% 56.2% at 50% 50%,
+      #448ff2 0%,
+      rgba(68, 143, 242, 0.56) 37.5%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-workers {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .workers-post{
+      font-size: 24px;
+  }
+
+  .workers-img-1 {
+    background-image: url(../../../public/Workers/Neo.jpg);
+  }
+  .workers-img-2 {
+    background-image: url(../../../public/Workers/Smith.jpg);
+  }
+  .workers-img-3 {
+    background-image: url(../../../public/Workers/Tompson.jpg);
+  }
+
+  .about-companies {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .about-companies-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .companies-img {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 320px;
+    height: 160px;
+  }
+
+  .companies-img-1 {
+    background-image: url(../../../public/Companies/1-DIT_Moscow.png);
+  }
+
+  .companies-img-2 {
+    background-image: url(../../../public/Companies/2-MVF.png);
+  }
+
+  .companies-img-3 {
+    background-image: url(../../../public/Companies/3-sberbank.png);
+  }
+
+  .companies-img-4 {
+    background-image: url(../../../public/Companies/4-Minfin.png);
+  }
+
+  .companies-img-5 {
+    background-image: url(../../../public/Companies/5-VTB.png);
+  }
+
+  .companies-img-6 {
+    background-image: url(../../../public/Companies/6-Roskazna.png);
+  }
+
+  .companies-img-7 {
+    background-image: url(../../../public/Companies/7-dom-rf.png);
+  }
+
+  .companies-img-8 {
+    background-image: url(../../../public/Companies/8-Uralsvyazinform.png);
+  }
+
+  .companies-img-9 {
+    background-image: url(../../../public/Companies/9-MVD.png);
+  }
+
+  .companies-img-10 {
+    background-image: url(../../../public/Companies/10-Procuratura.png);
+  }
+
+  .companies-img-11 {
+    background-image: url(../../../public/Companies/11-Ribolovstvo.png);
+  }
