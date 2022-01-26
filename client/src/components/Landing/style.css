@@ -1,6 +1,4 @@
 .landing {
-  padding-left: 5%;
-  padding-right: 5%;
   padding-top: 5%;
   position: relative;
 }
@@ -83,4 +81,82 @@
 }
 .service-img-4 {
   background-image: url(../../../public/networking.png);
+}
+@media (max-width: 1650px) {
+  .hero-world {
+    right: 0;
+  }
+}
+@media (max-width: 1400px) {
+  .landing-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .landing-services-item {
+    width: 150px;
+    height: 150px;
+  }
+  .service-img {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media (max-width: 1350px) {
+  .hero-world {
+    width: 500px;
+    height: 400px;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    padding-right: 2%;
+    padding-left: 2%;
+  }
+  .landing-container-title {
+    font-size: 32px;
+  }
+  .landing {
+    padding-top: 5%;
+  }
+  .landing-title {
+    font-size: 66px;
+  }
+  .hero-world {
+    right: 15%;
+  }
+
+  .landing-subtitle {
+    width: 45%;
+  }
+}
+@media (max-width: 1100px) {
+  .landing-title {
+    font-size: 46px;
+  }
+}
+@media (max-width: 900px) {
+  .landing-title {
+    width: 60%;
+  }
+  .hero-world {
+    width: 300px;
+    height: 300px;
+    right: 0;
+  }
+  .landing-subtitle {
+    font-size: 16px;
+  }
+}
+@media (max-width: 700px) {
+  .landing-services-item {
+    width: 100px;
+    height: 100px;
+  }
+  .service-img {
+    width: 60px;
+    height: 60px;
+  }
+  .landing-container-title {
+    margin-bottom: 10px;
+  }
 }

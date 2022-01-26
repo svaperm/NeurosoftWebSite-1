@@ -11,10 +11,13 @@ ul {
   background-repeat: no-repeat;
   background-repeat: repeat-y;
   background-size: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .App {
-  width: 1900px;
-  overflow: hidden;
+  max-width: 1900px;
+  margin: auto;
+
 }
 .footer {
   display: flex;
