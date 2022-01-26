@@ -135,9 +135,6 @@
   }
 }
 @media (max-width: 900px) {
-  .landing-title {
-    width: 60%;
-  }
   .hero-world {
     width: 300px;
     height: 300px;
@@ -145,6 +142,19 @@
   }
   .landing-subtitle {
     font-size: 16px;
+  }
+  .landing-hero {
+    height: 55vh;
+  }
+}
+@media (max-width: 850px) {
+  .header {
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+  }
+  .landing {
+    padding-top: 10%;
   }
 }
 @media (max-width: 700px) {
@@ -158,5 +168,67 @@
   }
   .landing-container-title {
     margin-bottom: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .landing {
+    padding-top: 15%;
+  }
+  .header {
+    height: 60px;
+  }
+  .landing-title {
+    font-size: 32px;
+    text-align: center;
+  }
+  .landing-subtitle {
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-size: 14px;
+  }
+  .hero-world {
+    width: 150px;
+    height: 150px;
+    top: 20%;
+    left: 0;
+    margin: auto;
+  }
+  .burger {
+    width: 20px;
+    height: 20px;
+  }
+  .header-nav {
+    font-size: 12px;
+  }
+  .header-menu-container {
+    padding: 2%;
+  }
+  .landing-container-title {
+    font-size: 24px;
+  }
+  .landing-hero {
+    height: 35vh;
+  }
+}
+@media (max-width: 500px) {
+  .landing {
+    padding-top: 25%;
+  }
+  .landing-title {
+    font-size: 24px;
+  }
+  .landing-subtitle {
+    font-size: 12px;
+  }
+}
+@media (max-width: 450px) {
+  .service-img {
+    width: 40px;
+    height: 40px;
+  }
+  .landing-services-item {
+    width: 60px;
+    height: 60px;
   }
 }
