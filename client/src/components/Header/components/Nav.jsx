@@ -1,5 +1,10 @@
 import { NavLink } from 'react-router-dom';
 
+import texts from '../texts.json'
+import DetectLanguage from '../../../functions/detectLang';
+
+const lang = DetectLanguage();
+
 const Nav = () => (
   <>
     <li>
@@ -9,7 +14,7 @@ const Nav = () => (
           isActive ? 'nav-link active-link' : 'nav-link'
         }
       >
-        Главная
+      {texts['home'][lang]}
       </NavLink>
     </li>
     <li>
@@ -19,7 +24,7 @@ const Nav = () => (
           isActive ? 'nav-link active-link' : 'nav-link'
         }
       >
-        О компании
+        {texts['about'][lang]}
       </NavLink>
     </li>
     <li>
@@ -29,7 +34,7 @@ const Nav = () => (
           isActive ? 'nav-link active-link' : 'nav-link'
         }
       >
-        Услуги
+      {texts['services'][lang]}
       </NavLink>
     </li>
     <li>
@@ -39,7 +44,7 @@ const Nav = () => (
           isActive ? 'nav-link active-link' : 'nav-link'
         }
       >
-        Поддержка для клиентов
+      {texts['support'][lang]}
       </NavLink>
     </li>
     <li>
@@ -49,17 +54,17 @@ const Nav = () => (
           isActive ? 'nav-link active-link' : 'nav-link'
         }
       >
-        Вакансии
+      {texts['vacancies'][lang]}
       </NavLink>
     </li>
     <li>
       <NavLink
         to="/solutions"
         className={({ isActive }) =>
-          isActive ? 'last-link active-link' : 'last-link'
+          isActive ? 'last-link active-link nav-link' : 'last-link nav-link'
         }
       >
-        Готовые решения
+      {texts['products'][lang]}
       </NavLink>
     </li>
   </>

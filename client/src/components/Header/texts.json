@@ -1,0 +1,43 @@
+{
+    "home":{
+        "ru": "Главная",
+        "en": "Home",
+        "de": "Startseite"
+    },
+
+    "about":{
+        "ru": "О компании",
+        "en": "About",
+        "de": "Über Firma"
+    },
+
+    "services":{
+        "ru": "Услуги",
+        "en": "Services",
+        "de": "Dienstleistungen"
+    },
+
+    "support":{
+        "ru": "Поддержка для клиентов",
+        "en": "Customer support",
+        "de": "Kundendienst"
+    },
+
+    "vacancies":{
+        "ru": "Вакансии",
+        "en": "Vacancies",
+        "de": "Stellenangebote"
+    },
+
+    "products":{
+        "ru": "Готовые решения",
+        "en": "Products",
+        "de": "Produkte"
+    },
+
+    "sign-in":{
+        "ru": "Вход",
+        "en": "Sign-in",
+        "de": "Anmelden"
+    }
+}

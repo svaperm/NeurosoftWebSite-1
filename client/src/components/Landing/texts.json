@@ -1,0 +1,42 @@
+{
+    "title":{
+        "ru": "нейрософт глобал",
+        "en": "neurosoft global",
+        "de": "neurosoft global"
+    },
+    "subtitle":{
+        "ru": "высокотехнологичные программные продукты для российских и зарубежных компаний",
+        "en": "high-tech software products for Russian and foreign companies",
+        "de": "Hightech-Softwareprodukte für russische und ausländische Unternehmen"
+    },
+
+    "services":{
+        "ru": "Наши услуги",
+        "en": "Our services",
+        "de": "Unsere Dienstleistungen"
+    },
+
+    "why-us":{
+        "ru": "Почему мы?",
+        "en": "Why us?",
+        "de": "Warum wir?"
+    },
+
+    "why-us-text":{
+        "ru": "Наша команда имеет большой опыт разработки программных продуктов для российских и зарубежных компаний. Мы разрабатываем высокотехнологичные программные продукты используя различные языки программирования и технологии разработки. В нашей команде работают высококвалифицированные сотрудники с 10-20-летним опытом работы в IT сфере.",
+        "en": "Our team has extensive experience in developing software products for Russian and foreign companies. We develop high-tech software products using various programming languages and development technologies.Our team consists of highly qualified employees with 10-20 years of experience in the IT field.",
+        "de": "Unser Team verfügt über umfangreiche Erfahrung in der Entwicklung von Softwareprodukten für russische und ausländische Unternehmen. Wir entwickeln High-Tech-Softwareprodukte mit verschiedenen Programmiersprachen und Entwicklungstechnologien.Unser Team beschäftigt hochqualifizierte Mitarbeiter mit 10-20 Jahren Erfahrung im IT-Bereich."
+    },
+
+    "advantages":{
+        "ru": "Преимущества",
+        "en": "Advantages",
+        "de": "Vorteile"
+    },
+
+    "advantages-text":{
+        "ru": "Наша команда имеет большой опыт разработки программных продуктов для российских и зарубежных компаний. Мы разрабатываем высокотехнологичные программные продукты используя различные языки программирования и технологии разработки. В нашей команде работают высококвалифицированные сотрудники с 10-20-летним опытом работы в IT сфере.",
+        "en": "Our team has extensive experience in developing software products for Russian and foreign companies. We develop high-tech software products using various programming languages and development technologies.Our team consists of highly qualified employees with 10-20 years of experience in the IT field.",
+        "de": "Unser Team verfügt über umfangreiche Erfahrung in der Entwicklung von Softwareprodukten für russische und ausländische Unternehmen. Wir entwickeln High-Tech-Softwareprodukte mit verschiedenen Programmiersprachen und Entwicklungstechnologien.Unser Team beschäftigt hochqualifizierte Mitarbeiter mit 10-20 Jahren Erfahrung im IT-Bereich."
+    }
+}

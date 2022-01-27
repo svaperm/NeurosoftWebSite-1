@@ -1,40 +1,44 @@
 import './style.css';
 
+import DetectLanguage from '../../functions/detectLang'
+import texts from './texts.json'
+
+const lang = DetectLanguage();
+
 function About() {
     return (
         <div className="about">
             <div className="about-hero">
-                <h1 className="mission">Миссия компании</h1>
+                <h1 className="mission">{texts['mission'][lang]}</h1>
                 <span className="about-subtitle">
-                Наша команда имеет большой опыт разработки программных продуктов для российских и зарубежных компаний. Мы разрабатываем высокотехнологичные программные продукты используя различные языки программирования и технологии разработки.
-В нашей команде работают высококвалифицированные сотрудники с 10-20-летним опытом работы в IT сфере.
+                    {texts['subtitle'][lang]}
                 </span>
             </div>
 
             <div className='about-container'>
-                <h2 className='about-container-title'>Наша команда</h2>
+                <h2 className='about-container-title'>{texts['team'][lang]}</h2>
                 <div className='about-workers'>
 
                     <div className='about-workers-item'>
                         <div className='workers-img workers-img-1'></div>
-                        <div className='workers-post'>Аналитик</div>
+                        <div className='workers-post'>{texts['post1'][lang]}</div>
                     </div>
 
                     <div className='about-workers-item'>
                         <div className='workers-img workers-img-2'></div>
-                        <div className='workers-post'>Разработчик</div>
+                        <div className='workers-post'>{texts['post2'][lang]}</div>
                     </div>
 
                     <div className='about-workers-item'>
                         <div className='workers-img workers-img-3'></div>
-                        <div className='workers-post'>Тестировщик</div>
+                        <div className='workers-post'>{texts['post3'][lang]}</div>
                     </div>
 
                 </div>
             </div>
 
             <div className='about-container'>
-                <h2 className='about-container-title'>Нам доверяют</h2>
+                <h2 className='about-container-title'>{texts['trust-us'][lang]}</h2>
                 <div className='about-companies'>
 
                     <div className='about-companies-item'>

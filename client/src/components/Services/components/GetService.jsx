@@ -1,39 +1,44 @@
 import '../style.css'
 
+import texts from '../texts.json'
+import DetectLanguage from '../../../functions/detectLang';
+
+const lang = DetectLanguage();
+
 function GetService(){
     return (
         <div className='services-container'>
             <div className='services-container-text'>
-                <h2 className='services-container-title'>Получить услугу</h2>
+                <h2 className='services-container-title'>{texts['get-service'][lang]}</h2>
             </div>
 
             <div className='services-input-area'>
-                Фамилия 
+                {texts['lastname'][lang]} 
                 <input className='services-input services-input-secondname' type='text'></input> 
             </div>
 
             <div className='services-input-area'>
-                Имя
+                {texts['name'][lang]} 
                 <input className='services-input services-input-name' type='text'></input> 
             </div>
 
             <div className='services-input-area'>
-                Email
+                {texts['email'][lang]} 
                 <input className='services-input services-input-email' type='text'></input> 
             </div>
 
             <div className='services-input-area'>
-                Телефон 
+                {texts['phone'][lang]}  
                 <input className='services-input services-input-phone' type='text'></input> 
             </div>
 
             <div className='services-input-area'>
-                Город 
+                {texts['city'][lang]}  
                 <input className='services-input services-input-city' type='text'></input> 
             </div>
 
             <div className='services-input-area'>
-                Услуга 
+                {texts['service'][lang]} 
                 <select className='services-input services-input-service'>
                     <option>Выберете услугу</option>
                     <option>Услуга 1</option>
@@ -44,7 +49,7 @@ function GetService(){
             </div>
 
             <div className='services-input-area'>
-                <input className='services-input services-input-send' type='button' value='Отправить заявку'></input> 
+                <input className='services-input services-input-send' type='button' value={texts['send'][lang]}></input> 
             </div>
         </div>
     )

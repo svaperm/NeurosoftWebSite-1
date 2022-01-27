@@ -1,0 +1,43 @@
+{
+    "mission":{
+        "ru": "Миссия компании",
+        "en": "The company's mission",
+        "de": "Die Mission des Unternehmens"
+    },
+
+    "subtitle":{
+        "ru": "Наша команда имеет большой опыт разработки программных продуктов для российских и зарубежных компаний. Мы разрабатываем высокотехнологичные программные продукты используя различные языки программирования и технологии разработки. В нашей команде работают высококвалифицированные сотрудники с 10-20-летним опытом работы в IT сфере.",
+        "en": "Our team has extensive experience in developing software products for Russian and foreign companies. We develop high-tech software products using various programming languages and development technologies.Our team consists of highly qualified employees with 10-20 years of experience in the IT field.",
+        "de": "Unser Team verfügt über umfangreiche Erfahrung in der Entwicklung von Softwareprodukten für russische und ausländische Unternehmen. Wir entwickeln High-Tech-Softwareprodukte mit verschiedenen Programmiersprachen und Entwicklungstechnologien.Unser Team beschäftigt hochqualifizierte Mitarbeiter mit 10-20 Jahren Erfahrung im IT-Bereich."
+    },
+
+    "team":{
+        "ru": "Наша команда",
+        "en": "Our team",
+        "de": "Unser Team"
+    },
+
+    "post1":{
+        "ru": "Аналитик",
+        "en": "Analyst",
+        "de": "Analytiker"
+    },
+
+    "post2":{
+        "ru": "Разработчик",
+        "en": "Developer",
+        "de": "Entwickler"
+    },
+    
+    "post3":{
+        "ru": "Тестировщик",
+        "en": "Tester",
+        "de": "Tester"
+    },
+
+    "trust-us":{
+        "ru": "Нам доверяют",
+        "en": "They trust us",
+        "de": "Sie vertrauen uns"
+    }
+}
