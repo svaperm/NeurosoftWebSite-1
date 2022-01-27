@@ -1,0 +1,49 @@
+{
+    "title":{
+        "ru": "Часто задаваемые вопросы",
+        "en": "FAQ",
+        "de": "FAQ"
+    },
+
+    "q-title-1":{
+        "ru": "Вопрос 1",
+        "en": "Question 1",
+        "de": "Frage 1"
+    },
+
+    "q-text-1":{
+        "ru": "Тут будет написан полный и развёнутый ответ на заданный вопрос Тут будет написан полный и развёнутый ответ на заданный вопрос Тут будет написан полный и развёнутый ответ на заданный вопрос",
+        "en": "Here will be written a full and detailed answer to the question asked Here will be written a full and detailed answer to the question asked Here will be written a full and detailed answer to the question asked",
+        "de": "Hier wird eine vollständige und detaillierte Antwort auf die gestellte Frage geschrieben Hier wird eine vollständige und detaillierte Antwort auf die gestellte Frage geschrieben Hier wird eine vollständige und detaillierte Antwort auf die gestellte Frage geschrieben"
+    },
+
+    "q-title-2":{
+        "ru": "Вопрос 2",
+        "en": "Question 2",
+        "de": "Frage 2"
+    },
+
+    "q-text-2":{
+        "ru": "Тут будет написан полный и развёнутый ответ на заданный вопрос Тут будет написан полный и развёнутый ответ на заданный вопрос Тут будет написан полный и развёнутый ответ на заданный вопрос",
+        "en": "Here will be written a full and detailed answer to the question asked Here will be written a full and detailed answer to the question asked Here will be written a full and detailed answer to the question asked",
+        "de": "Hier wird eine vollständige und detaillierte Antwort auf die gestellte Frage geschrieben Hier wird eine vollständige und detaillierte Antwort auf die gestellte Frage geschrieben Hier wird eine vollständige und detaillierte Antwort auf die gestellte Frage geschrieben"
+    },
+
+    "ask-title":{
+        "ru": "Не нашли ответ на свой вопрос?",
+        "en": "Didn't find the answer to your question?",
+        "de": "Haben Sie die Antwort auf Ihre Frage nicht gefunden?"
+    },
+
+    "ask-description":{
+        "ru": "Воспользуйтесь формой ниже и в ближайшее время мы ответим на указанную электронную почту",
+        "en": "Use the form below and we will respond to the specified email soon",
+        "de": "Verwenden Sie das untenstehende Formular und wir werden in Kürze auf die angegebene E-Mail antworten"
+    },
+
+    "send":{
+        "ru": "Отправить",
+        "en": "Send",
+        "de": "Senden"
+    }
+}
