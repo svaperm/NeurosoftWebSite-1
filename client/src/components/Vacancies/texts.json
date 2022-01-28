@@ -1,0 +1,133 @@
+{
+    "title":{
+        "ru": "Почему работать у нас?",
+        "en": "Why work with us?",
+        "de": "Warum mit uns arbeiten?"
+    },
+
+    "subtitle":{
+        "ru": "Наша команда имеет большой опыт разработки программных продуктов для российских и зарубежных компаний. Мы разрабатываем высокотехнологичные программные продукты используя различные языки программирования и технологии разработки. В нашей команде работают высококвалифицированные сотрудники с 10-20-летним опытом работы в IT сфере.",
+        "en": "Our team has extensive experience in developing software products for Russian and foreign companies. We develop high-tech software products using various programming languages and development technologies.Our team consists of highly qualified employees with 10-20 years of experience in the IT field.",
+        "de": "Unser Team verfügt über umfangreiche Erfahrung in der Entwicklung von Softwareprodukten für russische und ausländische Unternehmen. Wir entwickeln High-Tech-Softwareprodukte mit verschiedenen Programmiersprachen und Entwicklungstechnologien.Unser Team beschäftigt hochqualifizierte Mitarbeiter mit 10-20 Jahren Erfahrung im IT-Bereich."
+    },
+    
+    "vacancy-title-1":{
+        "ru": "Вакансия 1",
+        "en": "vacancy 1",
+        "de": "freie Stelle 1"
+    },
+    
+    "vacancy-description-1":{
+        "ru": "Детальное описание вакансии Детальное описание вакансии Детальное описание вакансии Детальное описание вакансии Детальное описание вакансии Детальное описание вакансии Детальное описание вакансии Детальное описание вакансии",
+        "en": "Detailed job description Detailed job description Detailed job description Detailed job description Detailed job description Detailed job description Detailed job description Detailed job description",
+        "de": "Ausführliche Stellenbeschreibung Ausführliche Stellenbeschreibung Ausführliche Stellenbeschreibung Ausführliche Stellenbeschreibung Ausführliche Stellenbeschreibung Ausführliche Stellenbeschreibung "
+    },
+    
+    "vacancy-title-2":{
+        "ru": "Вакансия 2",
+        "en": "vacancy 2",
+        "de": "freie Stelle 2"
+    },
+    
+    "vacancy-description-2":{
+        "ru": "Детальное описание вакансии Детальное описание вакансии Детальное описание вакансии Детальное описание вакансии Детальное описание вакансии Детальное описание вакансии Детальное описание вакансии Детальное описание вакансии",
+        "en": "Detailed job description Detailed job description Detailed job description Detailed job description Detailed job description Detailed job description Detailed job description Detailed job description",
+        "de": "Ausführliche Stellenbeschreibung Ausführliche Stellenbeschreibung Ausführliche Stellenbeschreibung Ausführliche Stellenbeschreibung Ausführliche Stellenbeschreibung Ausführliche Stellenbeschreibung "
+    },
+
+    "find-job":{
+        "ru": "Поиск вакансии",
+        "en": "Job search",
+        "de": "Arbeitssuche"
+    },
+    
+    "keywords":{
+        "ru": "Ключевые слова",
+        "en": "Keywords",
+        "de": "Schlüsselwörter"
+    },
+    
+    "profession":{
+        "ru": "Специальность",
+        "en": "Profession",
+        "de": "Beruf"
+    },
+    
+    "experience":{
+        "ru": "Опыт работы",
+        "en": "Work experience",
+        "de": "Arbeitserfahrung"
+    },
+    
+    "find":{
+        "ru": "Найти",
+        "en": "Find",
+        "de": "Finden"
+    },
+    
+    "choose-exp":{
+        "ru": "Выберете опыт",
+        "en": "Choose an experience",
+        "de": "Wählen Sie ein Erlebnis"
+    },
+    
+    "respond":{
+        "ru": "Откликнуться",
+        "en": "Respond",
+        "de": "Antworten"
+    },
+    
+    "lastname":{
+        "ru": "Фамилия",
+        "en": "Lastname",
+        "de": "Nachname"
+    },
+
+    "name":{
+        "ru": "Имя",
+        "en": "Name",
+        "de": "Name"
+    },
+
+    "email":{
+        "ru": "Email",
+        "en": "Email",
+        "de": "Email"
+    },
+
+    "phone":{
+        "ru": "Телефон",
+        "en": "Phone number",
+        "de": "Telefonnummer"
+    },
+
+    "city":{
+        "ru": "Город",
+        "en": "City",
+        "de": "Stadt"
+    },
+
+    "vacancy":{
+        "ru": "Вакансия",
+        "en": "Vacancy",
+        "de": "Stellenangebot"
+    },
+
+    "resume":{
+        "ru": "Резюме",
+        "en": "Resume",
+        "de": "Zusammenfassung"
+    },
+    
+    "choose-vac":{
+        "ru": "Выберете вакнсию",
+        "en": "Choose an vacancy",
+        "de": "Wählen Sie eine Stelle aus"
+    },
+
+    "letter":{
+        "ru": "Сопроводительное письмо",
+        "en": "Accompanying letter",
+        "de": "beiliegender Brief"
+    }
+}

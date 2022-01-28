@@ -105,5 +105,11 @@
         "ru": "Отправить заявку",
         "en": "Send",
         "de": "Senden"
+    },
+
+    "choose-service":{
+        "ru": "Выберете услугу",
+        "en": "Choose a service",
+        "de": "Wählen Sie einen Dienst aus"
     }
 }
