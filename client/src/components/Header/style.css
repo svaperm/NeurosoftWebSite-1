@@ -59,7 +59,6 @@
   align-items: center;
   justify-content: space-evenly;
   transition: 0.2s;
-  cursor: pointer;
 }
 .header-btn:hover {
   background-color: #448ff2;
@@ -107,9 +106,6 @@
 .close-burger {
   background-image: url(../../../public/close.png);
 }
-.show {
-  display: none;
-}
 @media (max-width: 1750px) {
   .nav-link::after,
   .last-link::after {
@@ -148,6 +144,7 @@
 }
 @media (max-width: 1200px) {
   .header-menu-container {
+    display: none;
     position: absolute;
     flex-direction: column;
     background-color: #f2f2f2;
@@ -164,16 +161,21 @@
   .burger {
     display: block;
   }
-  .nav-link::after, .last-link::after {
+  .nav-link::after,
+  .last-link::after {
     content: '';
   }
 }
 
-.lang-select{
+.lang-select {
   background-color: #056cf2;
   height: 100%;
   width: 50%;
   text-align: center;
   font-size: 16px;
   color: #f2f2f2;
+  cursor: pointer;
+}
+.show {
+  display: flex;
 }

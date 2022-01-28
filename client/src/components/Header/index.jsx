@@ -2,9 +2,8 @@ import Nav from './components/Nav';
 import './style.css';
 
 import ChangeLanguage from '../../functions/changeLang';
-import texts from './texts.json'
+import texts from './texts.json';
 import DetectLanguage from '../../functions/detectLang';
-
 
 const lang = DetectLanguage();
 
@@ -15,7 +14,7 @@ const Header = () => (
       className="burger"
       onClick={(e) => {
         e.target.classList.toggle('close-burger');
-        e.currentTarget.nextElementSibling.classList.toggle('show');
+        e.currentTarget.parentElement.children[2].classList.toggle('show');
       }}
     ></div>
     <div className="header-menu-container">
@@ -31,10 +30,14 @@ const Header = () => (
         </button>
         <button className="header-btn">
           <div className="btn-icon-lang"></div>
-          <select className="lang-select" onChange={ChangeLanguage} value={window.sessionStorage.getItem('lang')}>
-            <option value='ru'>RU</option>
-            <option value='en'>EN</option>
-            <option value='de'>DE</option>
+          <select
+            className="lang-select"
+            onChange={ChangeLanguage}
+            value={window.sessionStorage.getItem('lang')}
+          >
+            <option value="ru">RU</option>
+            <option value="en">EN</option>
+            <option value="de">DE</option>
           </select>
         </button>
       </div>
