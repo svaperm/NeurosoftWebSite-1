@@ -1,162 +1,285 @@
 .about {
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 5%;
-    position: relative;
-  }
-
-  .about-hero {
-    height: calc(60vh - 80px);
-
-    display: block;
-    text-align: center;
-  }
-
-  .mission{
-    font-weight: bold;
-    font-size: 96px;
-    background: conic-gradient(from 180deg at 50% 50%, #F2A007 -7.5deg, rgba(0, 71, 255, 0.9) 46.87deg, #F2A007 110.62deg, #0773FF 157.5deg, #F2A007 236.25deg, #F2A007 249.37deg, rgba(114, 132, 134, 0.994903) 260.62deg, rgba(114, 132, 134, 0.994903) 260.66deg, rgba(12, 110, 235, 0.990841) 269.59deg, #F2A007 269.63deg, rgba(114, 132, 134, 0.994903) 290.63deg, #F2A007 309.38deg, #F2A007 318.75deg, #F2A007 352.5deg, rgba(0, 71, 255, 0.9) 406.88deg);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-    font-weight: 900;
-    line-height: 114.19%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  position: relative;
 }
 
+.about-hero {
+  height: calc(60vh - 80px);
+
+  display: block;
+  text-align: center;
+}
+
+.mission {
+  font-weight: bold;
+  font-size: 96px;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #f2a007 -7.5deg,
+    rgba(0, 71, 255, 0.9) 46.87deg,
+    #f2a007 110.62deg,
+    #0773ff 157.5deg,
+    #f2a007 236.25deg,
+    #f2a007 249.37deg,
+    rgba(114, 132, 134, 0.994903) 260.62deg,
+    rgba(114, 132, 134, 0.994903) 260.66deg,
+    rgba(12, 110, 235, 0.990841) 269.59deg,
+    #f2a007 269.63deg,
+    rgba(114, 132, 134, 0.994903) 290.63deg,
+    #f2a007 309.38deg,
+    #f2a007 318.75deg,
+    #f2a007 352.5deg,
+    rgba(0, 71, 255, 0.9) 406.88deg
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  line-height: 114.19%;
+}
+
+.about-subtitle {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 151.19%;
+  text-transform: uppercase;
+  width: 650px;
+  background: rgba(255, 255, 255, 0.86);
+}
+
+.about-container {
+  background: rgba(255, 255, 255, 0.86);
+  border-radius: 5px;
+  padding: 40px 100px;
+  padding-bottom: 70px;
+  margin-bottom: 100px;
+}
+
+.about-container-title {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  margin-bottom: 80px;
+
+  color: #056cf2;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.workers-img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 160px;
+  border-radius: 90%;
+}
+
+.about-workers-item {
+  width: 250px;
+  height: 250px;
+  background: radial-gradient(
+    56.2% 56.2% at 50% 50%,
+    #448ff2 0%,
+    rgba(68, 143, 242, 0.56) 37.5%,
+    rgba(255, 255, 255, 0) 100%
+  );
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-workers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.workers-post {
+  font-size: 24px;
+}
+
+.workers-img-1 {
+  background-image: url(../../../public/Workers/Neo.jpg);
+}
+.workers-img-2 {
+  background-image: url(../../../public/Workers/Smith.jpg);
+}
+.workers-img-3 {
+  background-image: url(../../../public/Workers/Tompson.jpg);
+}
+
+.about-companies {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-companies-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.companies-img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  width: 320px;
+  height: 160px;
+}
+
+.companies-img-1 {
+  background-image: url(../../../public/Companies/1-DIT_Moscow.png);
+}
+
+.companies-img-2 {
+  background-image: url(../../../public/Companies/2-MVF.png);
+}
+
+.companies-img-3 {
+  background-image: url(../../../public/Companies/3-sberbank.png);
+}
+
+.companies-img-4 {
+  background-image: url(../../../public/Companies/4-Minfin.png);
+}
+
+.companies-img-5 {
+  background-image: url(../../../public/Companies/5-VTB.png);
+}
+
+.companies-img-6 {
+  background-image: url(../../../public/Companies/6-Roskazna.png);
+}
+
+.companies-img-7 {
+  background-image: url(../../../public/Companies/7-dom-rf.png);
+}
+
+.companies-img-8 {
+  background-image: url(../../../public/Companies/8-Uralsvyazinform.png);
+}
+
+.companies-img-9 {
+  background-image: url(../../../public/Companies/9-MVD.png);
+}
+
+.companies-img-10 {
+  background-image: url(../../../public/Companies/10-Procuratura.png);
+}
+
+.companies-img-11 {
+  background-image: url(../../../public/Companies/11-Ribolovstvo.png);
+}
+
+@media (max-width: 1200px) {
+  .about-hero {
+    height: calc(50vh - 80px);
+    padding-top: 20px;
+  }
+  .mission {
+    font-size: 72px;
+  }
   .about-subtitle {
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 151.19%;
-    text-transform: uppercase;
-    width: 650px;
-    background: rgba(255, 255, 255, 0.86);
+    font-size: 18px;
   }
-
-  .about-container {
-    background: rgba(255, 255, 255, 0.86);
-    border-radius: 5px;
-    padding: 40px 100px;
-    padding-bottom: 70px;
-    margin-bottom: 100px;
-  }
-
   .about-container-title {
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 56px;
-    margin-bottom: 80px;
-
-    color: #056CF2;
-    text-decoration: underline;
-    text-align: center;
+    font-size: 36px;
   }
-
-
-  .workers-img {
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 160px;
-    height: 160px;
-    border-radius: 90%;
-  }
-
   .about-workers-item {
-    width: 250px;
-    height: 250px;
-    background: radial-gradient(
-      56.2% 56.2% at 50% 50%,
-      #448ff2 0%,
-      rgba(68, 143, 242, 0.56) 37.5%,
-      rgba(255, 255, 255, 0) 100%
-    );
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 200px;
+    height: 200px;
   }
-
-  .about-workers {
-    display: flex;
-    justify-content: space-between;
+  .workers-img {
+    width: 100px;
+    height: 100px;
   }
-
-  .workers-post{
-      font-size: 24px;
+  .workers-post {
+    margin-top: 15px;
+    font-size: 16px;
   }
-
-  .workers-img-1 {
-    background-image: url(../../../public/Workers/Neo.jpg);
-  }
-  .workers-img-2 {
-    background-image: url(../../../public/Workers/Smith.jpg);
-  }
-  .workers-img-3 {
-    background-image: url(../../../public/Workers/Tompson.jpg);
-  }
-
-  .about-companies {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-
-  .about-companies-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
   .companies-img {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-
-    width: 320px;
-    height: 160px;
+    width: 220px;
+    height: 100px;
+    margin: 15px;
   }
-
-  .companies-img-1 {
-    background-image: url(../../../public/Companies/1-DIT_Moscow.png);
+}
+@media (max-width: 950px) {
+  .about-hero {
+    padding-top: 40px;
   }
-
-  .companies-img-2 {
-    background-image: url(../../../public/Companies/2-MVF.png);
+  .mission {
+    font-size: 54px;
   }
-
-  .companies-img-3 {
-    background-image: url(../../../public/Companies/3-sberbank.png);
+  .about-subtitle {
+    font-size: 14px;
   }
-
-  .companies-img-4 {
-    background-image: url(../../../public/Companies/4-Minfin.png);
+  .about-container {
+    padding: 0;
   }
-
-  .companies-img-5 {
-    background-image: url(../../../public/Companies/5-VTB.png);
+  .about-workers-item {
+    width: 150px;
+    height: 150px;
   }
-
-  .companies-img-6 {
-    background-image: url(../../../public/Companies/6-Roskazna.png);
+  .workers-img {
+    width: 80px;
+    height: 80px;
   }
-
-  .companies-img-7 {
-    background-image: url(../../../public/Companies/7-dom-rf.png);
+  .about-container-title {
+    font-size: 24px;
+    margin-bottom: 20px;
   }
-
-  .companies-img-8 {
-    background-image: url(../../../public/Companies/8-Uralsvyazinform.png);
+  .companies-img {
+    width: 150px;
+    height: 60px;
   }
-
-  .companies-img-9 {
-    background-image: url(../../../public/Companies/9-MVD.png);
+}
+@media (max-width: 600px) {
+  .mission {
+    font-size: 36px;
   }
-
-  .companies-img-10 {
-    background-image: url(../../../public/Companies/10-Procuratura.png);
+  .about-subtitle {
+    font-size: 12px;
   }
-
-  .companies-img-11 {
-    background-image: url(../../../public/Companies/11-Ribolovstvo.png);
+  .about-hero {
+    padding-top: 60px;
+    height: calc(40vh - 80px);
   }
+  .about-workers-item {
+    width: 100px;
+    height: 100px;
+  }
+  .workers-img {
+    width: 50px;
+    height: 50px;
+  }
+  .workers-post {
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  .companies-img {
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+  }
+}
+@media (max-width: 400px) {
+  .mission {
+    font-size: 28px;
+  }
+  .about-workers-item {
+    width: 80px;
+    height: 80px;
+  }
+  .workers-img {
+    width: 40px;
+    height: 40px;
+  }
+  .about-subtitle {
+    font-size: 10px;
+  }
+}
