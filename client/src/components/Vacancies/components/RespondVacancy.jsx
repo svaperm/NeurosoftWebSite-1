@@ -8,9 +8,9 @@ const lang = DetectLanguage();
 function RespondVacancy(){
     return(
         <form>
-        <div className='vacancies-container'>
+        <div className='vacancies-container vacancies-form-container'>
         <div className='vacancies-container-text'>
-                <h2 className='services-container-title'>{texts['respond'][lang]}</h2>
+                <h2 className='services-container-title vacancies-form-title'>{texts['respond'][lang]}</h2>
             </div>
 
             <div className='vacancies-input-area'>
