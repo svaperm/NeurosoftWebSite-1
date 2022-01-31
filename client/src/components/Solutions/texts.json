@@ -1,0 +1,67 @@
+{
+    "view":{
+        "ru": "Сотреть кейс",
+        "en": "View the case",
+        "de":"Sehen Sie sich den Fall an"
+    },
+
+    "solution-title-1":{
+        "ru": "Название проекта/решения1",
+        "en": "Project/solution name1",
+        "de": "Projekt-/Lösungsname1"
+    },
+
+    "solution-subtitle-1":{
+        "ru": "Систем сбора и обработки данных, системы принятия решений, ситуационных центров, личных кабинетов руководителей, платежных систем, фрон и бэк оффисных систем, системы обработки данных с использованием нейросетей, банковских систем",
+        "en": "Data collection and processing systems, decision-making systems, situation centers, personal offices of managers, payment systems, front and back office systems, data processing systems using neural networks, banking systems",
+        "de": "Datenerfassungs- und -verarbeitungssysteme, Entscheidungsfindungssysteme, Lagezentren, persönliche Büros von Managern, Zahlungssysteme, Front- und Backoffice-Systeme, Datenverarbeitungssysteme mit neuronalen Netzen, Banksysteme"
+    },
+
+    "solution-title-2":{
+        "ru": "Название проекта/решения2",
+        "en": "Project/solution name2",
+        "de": "Projekt-/Lösungsname2"
+    },
+
+    "solution-subtitle-2":{
+        "ru": "Систем сбора и обработки данных, системы принятия решений, ситуационных центров, личных кабинетов руководителей, платежных систем, фрон и бэк оффисных систем, системы обработки данных с использованием нейросетей, банковских систем",
+        "en": "Data collection and processing systems, decision-making systems, situation centers, personal offices of managers, payment systems, front and back office systems, data processing systems using neural networks, banking systems",
+        "de": "Datenerfassungs- und -verarbeitungssysteme, Entscheidungsfindungssysteme, Lagezentren, persönliche Büros von Managern, Zahlungssysteme, Front- und Backoffice-Systeme, Datenverarbeitungssysteme mit neuronalen Netzen, Banksysteme"
+    },
+
+    "solution-title-3":{
+        "ru": "Название проекта/решения3",
+        "en": "Project/solution name3",
+        "de": "Projekt-/Lösungsname3"
+    },
+
+    "solution-subtitle-3":{
+        "ru": "Систем сбора и обработки данных, системы принятия решений, ситуационных центров, личных кабинетов руководителей, платежных систем, фрон и бэк оффисных систем, системы обработки данных с использованием нейросетей, банковских систем",
+        "en": "Data collection and processing systems, decision-making systems, situation centers, personal offices of managers, payment systems, front and back office systems, data processing systems using neural networks, banking systems",
+        "de": "Datenerfassungs- und -verarbeitungssysteme, Entscheidungsfindungssysteme, Lagezentren, persönliche Büros von Managern, Zahlungssysteme, Front- und Backoffice-Systeme, Datenverarbeitungssysteme mit neuronalen Netzen, Banksysteme"
+    },
+
+    "solution-title-4":{
+        "ru": "Название проекта/решения4",
+        "en": "Project/solution name4",
+        "de": "Projekt-/Lösungsname4"
+    },
+
+    "solution-subtitle-4":{
+        "ru": "Систем сбора и обработки данных, системы принятия решений, ситуационных центров, личных кабинетов руководителей, платежных систем, фрон и бэк оффисных систем, системы обработки данных с использованием нейросетей, банковских систем",
+        "en": "Data collection and processing systems, decision-making systems, situation centers, personal offices of managers, payment systems, front and back office systems, data processing systems using neural networks, banking systems",
+        "de": "Datenerfassungs- und -verarbeitungssysteme, Entscheidungsfindungssysteme, Lagezentren, persönliche Büros von Managern, Zahlungssysteme, Front- und Backoffice-Systeme, Datenverarbeitungssysteme mit neuronalen Netzen, Banksysteme"
+    },
+
+    "solution-title-5":{
+        "ru": "Название проекта/решения5",
+        "en": "Project/solution name5",
+        "de": "Projekt-/Lösungsname5"
+    },
+
+    "solution-subtitle-5":{
+        "ru": "Систем сбора и обработки данных, системы принятия решений, ситуационных центров, личных кабинетов руководителей, платежных систем, фрон и бэк оффисных систем, системы обработки данных с использованием нейросетей, банковских систем",
+        "en": "Data collection and processing systems, decision-making systems, situation centers, personal offices of managers, payment systems, front and back office systems, data processing systems using neural networks, banking systems",
+        "de": "Datenerfassungs- und -verarbeitungssysteme, Entscheidungsfindungssysteme, Lagezentren, persönliche Büros von Managern, Zahlungssysteme, Front- und Backoffice-Systeme, Datenverarbeitungssysteme mit neuronalen Netzen, Banksysteme"
+    }
+}

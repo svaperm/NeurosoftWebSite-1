@@ -1,16 +1,19 @@
 import '../style.css';
 
-export const Solution = () => (
-  <div className="solution-container">
-    <h2 className="solution-title">Название проекта/решения</h2>
+import texts from '../texts.json';
+import DetectLanguage from '../../../functions/detectLang';
+
+const lang = DetectLanguage();
+
+export function Solution(props){
+  return(
+<div className="solution-container">
+    <h2 className="solution-title">{props.title}</h2>
     <h2 className="solution-line"></h2>
     <span className="solution-description">
-      НАША КОМАНДА ИМЕЕТ БОЛЬШОЙ ОПЫТ РАЗРАБОТКИ ПРОГРАММНЫХ ПРОДУКТОВ ДЛЯ
-      РОССИЙСКИХ И ЗАРУБЕЖНЫХ КОМПАНИЙ. МЫ РАЗРАБАТЫВАЕМ ВЫСОКОТЕХНОЛОГИЧНЫЕ
-      ПРОГРАММНЫЕ ПРОДУКТЫ ИСПОЛЬЗУЯ РАЗЛИЧНЫЕ ЯЗЫКИ ПРОГРАММИРОВАНИЯ И
-      ТЕХНОЛОГИИ РАЗРАБОТКИ. В НАШЕЙ КОМАНДЕ РАБОТАЮТ ВЫСОКОКВАЛИФИЦИРОВАННЫЕ
-      СОТРУДНИКИ С 10-20-ЛЕТНИМ ОПЫТОМ РАБОТЫ В IT СФЕРЕ.
+      {props.subtitle}
     </span>
-    <button className="solution-btn">Смотреть кейс</button>
+    <button className="solution-btn">{texts['view'][lang]}</button>
   </div>
-);
+  )
+}
