@@ -7,7 +7,6 @@ const lang = DetectLanguage();
 
 function GetService() {
   return (
-    <form>
     <div className="services-container get-service">
       <div className="services-container-text">
         <h2 className="services-container-title get-service-title">
@@ -17,7 +16,8 @@ function GetService() {
 
       <div className="services-input-area">
         {texts['lastname'][lang]}*
-        <input required
+        <input
+          required
           className="services-input services-input-secondname"
           type="text"
         ></input>
@@ -25,7 +25,8 @@ function GetService() {
 
       <div className="services-input-area">
         {texts['name'][lang]}*
-        <input required
+        <input
+          required
           className="services-input services-input-name"
           type="text"
         ></input>
@@ -33,7 +34,8 @@ function GetService() {
 
       <div className="services-input-area">
         {texts['email'][lang]}*
-        <input required
+        <input
+          required
           className="services-input services-input-email"
           type="text"
         ></input>
@@ -67,12 +69,19 @@ function GetService() {
       </div>
 
       <div className="services-input-area">
-        <input type='submit' className="services-input services-input-send" value={texts['send'][lang]}>
-          
-        </input>
+        <button
+          className="services-input services-input-send"
+          onClick={(e) => {
+            const inputs = document.querySelectorAll('.services-input');
+            inputs.forEach((input) => {
+              input.value = '';
+            });
+          }}
+        >
+          {texts['send'][lang]}
+        </button>
       </div>
     </div>
-    </form>
   );
 }
 
