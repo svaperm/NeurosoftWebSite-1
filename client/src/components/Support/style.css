@@ -65,11 +65,14 @@
   font-size: 24px;
   resize: none;
   width: 95%;
+  border: 1px solid #000;
 }
 
 .support-email {
   font-size: 24px;
   width: 40%;
+  margin-bottom: 20px;
+  border: 1px solid #000;
 }
 
 .support-send {
@@ -77,9 +80,19 @@
   font-size: 24px;
   width: 20%;
   height: 50px;
+  cursor: pointer;
+  border: 1px solid #000;
+  transition: .2s;
 }
 
-@media (max-width: 1400px) { 
+.support-send:hover {
+  background-color: #f2a007;
+}
+.support-send:active {
+  background-color: #f1cb84;
+}
+
+@media (max-width: 1400px) {
   .support-title {
     font-size: 72px;
   }
@@ -98,7 +111,7 @@
     margin-bottom: 20px;
   }
 }
-@media (max-width: 900px) { 
+@media (max-width: 900px) {
   .support-hero {
     padding-top: 40px;
   }
@@ -121,12 +134,12 @@
     width: 70%;
   }
 }
-@media (max-width: 670px) { 
+@media (max-width: 670px) {
   .support-title {
     font-size: 42px;
   }
 }
-@media (max-width: 400px) { 
+@media (max-width: 400px) {
   .support-hero {
     padding-top: 60px;
   }
