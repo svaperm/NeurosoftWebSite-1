@@ -14,10 +14,6 @@ const lang = DetectLanguage();
 function Header(){
   let [isInner, setIsInner] = React.useState(false);
 
-  function GoToInner() {
-    setIsInner(!isInner);
-  }
-
   return(
   <div className="header">
     <div className="logo"></div>
@@ -34,12 +30,11 @@ function Header(){
           {isInner ? <InnerNav /> : <Nav/>}
         </ul>
       </nav>
-      <NavLink to={isInner ? "/innerMain" : "/"} onClick={GoToInner}>{isInner ? 'Внутренняя часть' : 'Внешняя часть'}</NavLink>
       <div className="header-btns">
-        <button className="header-btn">
+        <NavLink className="header-btn" to={isInner ? "/" : "/innerMain"} onClick={() => setIsInner(!isInner)} >
           <div className="btn-icon-sign-in"></div>
           <span className="btn-text">{texts['sign-in'][lang]}</span>
-        </button>
+        </NavLink>
         <button className="header-btn">
           <div className="btn-icon-lang"></div>
           <select
