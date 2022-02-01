@@ -9,6 +9,13 @@ import Vacancies from './components/Vacancies';
 import Header from './components/Header';
 import Nav from './components/Header/components/Nav';
 
+import InnerMain from './components/InnerPart/InnerMain'
+import Staff from './components/InnerPart/Staff'
+import Projects from './components/InnerPart/Projects'
+import Documentation from './components/InnerPart/Documentation'
+import News from './components/InnerPart/News'
+import StockholdersDocs from './components/InnerPart/StockholdersDocs';
+
 function App() {
   return (
     <div className="App">
@@ -21,6 +28,14 @@ function App() {
           <Route path="/solutions" element={<Solutions />}></Route>
           <Route path="/support" element={<Support />}></Route>
           <Route path="/vacancies" element={<Vacancies />}></Route>
+
+          {/*Внутренняя часть*/}
+          <Route path="/innerMain" element={<InnerMain />}></Route>
+          <Route path="/staff" element={<Staff />}></Route>
+          <Route path="/projects" element={<Projects />}></Route>
+          <Route path="/documentation" element={<Documentation />}></Route>
+          <Route path="/news" element={<News />}></Route>
+          <Route path="/stockholders-docs" element={<StockholdersDocs />}></Route>
         </Routes>
       </div>
       <div className="footer">

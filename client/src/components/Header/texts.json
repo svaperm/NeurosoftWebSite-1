@@ -39,5 +39,35 @@
         "ru": "Вход",
         "en": "Sign-in",
         "de": "Anmelden"
+    },
+
+    "staff":{
+        "ru": "Сотрудники",
+        "en": "Staff",
+        "de": "Personal"
+    },
+
+    "projects":{
+        "ru": "Проекты",
+        "en": "Projects",
+        "de": "Projekte"
+    },
+
+    "documentation":{
+        "ru": "Документация",
+        "en": "Documentation",
+        "de": "Dokumentation"
+    },
+
+    "news":{
+        "ru": "Новости",
+        "en": "News",
+        "de": "Nachrichten"
+    },
+
+    "stockholders-docs":{
+        "ru": "Документы акционерам",
+        "en": "Documents to stockholders",
+        "de": "Dokumente für Aktionäre"
     }
 }

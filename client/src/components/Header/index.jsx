@@ -4,10 +4,21 @@ import './style.css';
 import ChangeLanguage from '../../functions/changeLang';
 import texts from './texts.json';
 import DetectLanguage from '../../functions/detectLang';
+import InnerNav from './components/InnerNav';
+import React from 'react';
+
+import { NavLink } from 'react-router-dom';
 
 const lang = DetectLanguage();
 
-const Header = () => (
+function Header(){
+  let [isInner, setIsInner] = React.useState(false);
+
+  function GoToInner() {
+    setIsInner(!isInner);
+  }
+
+  return(
   <div className="header">
     <div className="logo"></div>
     <div
@@ -20,9 +31,10 @@ const Header = () => (
     <div className="header-menu-container">
       <nav className="header-nav">
         <ul className="header-nav">
-          <Nav />
+          {isInner ? <InnerNav /> : <Nav/>}
         </ul>
       </nav>
+      <NavLink to={isInner ? "/innerMain" : "/"} onClick={GoToInner}>{isInner ? 'Внутренняя часть' : 'Внешняя часть'}</NavLink>
       <div className="header-btns">
         <button className="header-btn">
           <div className="btn-icon-sign-in"></div>
@@ -43,6 +55,7 @@ const Header = () => (
       </div>
     </div>
   </div>
-);
+  )
+}
 
 export default Header;
