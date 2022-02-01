@@ -1,12 +1,97 @@
 {
-    "title":{
-        "ru": "нейрософт глобал",
-        "en": "neurosoft global",
-        "de": "neurosoft global"
+    "events":{
+        "ru": "События",
+        "en": "Events",
+        "de": "Veranstaltungen"
     },
-    "subtitle":{
-        "ru": "высокотехнологичные программные продукты для российских и зарубежных компаний",
-        "en": "high-tech software products for Russian and foreign companies",
-        "de": "Hightech-Softwareprodukte für russische und ausländische Unternehmen"
+    
+    "current-week":{
+        "ru": "На этой неделе",
+        "en": "On this week",
+        "de": "In dieser Woche"
+    },
+    
+    "soon":{
+        "ru": "Ближайшее время",
+        "en": "Soon",
+        "de": "Bald"
+    },
+    
+    "event-description-1":{
+        "ru": "здесь будет текст события здесь будет текст события здесь будет текст события здесь будет текст события здесь будет текст события",
+        "en": "here will be the text of the event here will be the text of the event here will be the text of the event here will be the text of the event here will be the text of the event",
+        "de": "hier der Text der Veranstaltung hier der Text der Veranstaltung hier der Text der Veranstaltung hier der Text der Veranstaltung hier der Text der Veranstaltung"
+    },
+    
+    "event-description-2":{
+        "ru": "здесь будет текст события здесь будет текст события здесь будет текст события здесь будет текст события здесь будет текст события",
+        "en": "here will be the text of the event here will be the text of the event here will be the text of the event here will be the text of the event here will be the text of the event",
+        "de": "hier der Text der Veranstaltung hier der Text der Veranstaltung hier der Text der Veranstaltung hier der Text der Veranstaltung hier der Text der Veranstaltung"
+    },
+    
+    "event-description-3":{
+        "ru": "здесь будет текст события здесь будет текст события здесь будет текст события здесь будет текст события здесь будет текст события",
+        "en": "here will be the text of the event here will be the text of the event here will be the text of the event here will be the text of the event here will be the text of the event",
+        "de": "hier der Text der Veranstaltung hier der Text der Veranstaltung hier der Text der Veranstaltung hier der Text der Veranstaltung hier der Text der Veranstaltung"
+    },
+    
+    "event-description-4":{
+        "ru": "здесь будет текст события здесь будет текст события здесь будет текст события здесь будет текст события здесь будет текст события",
+        "en": "here will be the text of the event here will be the text of the event here will be the text of the event here will be the text of the event here will be the text of the event",
+        "de": "hier der Text der Veranstaltung hier der Text der Veranstaltung hier der Text der Veranstaltung hier der Text der Veranstaltung hier der Text der Veranstaltung"
+    },
+    
+    "event-description-5":{
+        "ru": "здесь будет текст события здесь будет текст события здесь будет текст события здесь будет текст события здесь будет текст события",
+        "en": "here will be the text of the event here will be the text of the event here will be the text of the event here will be the text of the event here will be the text of the event",
+        "de": "hier der Text der Veranstaltung hier der Text der Veranstaltung hier der Text der Veranstaltung hier der Text der Veranstaltung hier der Text der Veranstaltung"
+    },
+    
+    "event-description-6":{
+        "ru": "здесь будет текст события здесь будет текст события здесь будет текст события здесь будет текст события здесь будет текст события",
+        "en": "here will be the text of the event here will be the text of the event here will be the text of the event here will be the text of the event here will be the text of the event",
+        "de": "hier der Text der Veranstaltung hier der Text der Veranstaltung hier der Text der Veranstaltung hier der Text der Veranstaltung hier der Text der Veranstaltung"
+    },
+    
+    "best-worker":{
+        "ru": "Лучший сотрудник месяца",
+        "en": "Best Employee of the Month",
+        "de": "Bester Mitarbeiter des Monats"
+    },
+    
+    "best-worker-post":{
+        "ru": "Аналитик",
+        "en": "Analyst",
+        "de": "Analytiker"
+    },
+    
+    "projects-in-process":{
+        "ru": "Проекты в работе",
+        "en": "Projects in process",
+        "de": "Projekte in Bearbeitung"
+    },
+    
+    "project-name-1":{
+        "ru": "Название проекта 1",
+        "en": "Project name 1",
+        "de": "Projektname 1"
+    },
+    
+    "project-name-2":{
+        "ru": "Название проекта 2",
+        "en": "Project name 2",
+        "de": "Projektname 2"
+    },
+    
+    "project-name-3":{
+        "ru": "Название проекта 3",
+        "en": "Project name 3",
+        "de": "Projektname 3"
+    },
+    
+    "project-name-4":{
+        "ru": "Название проекта 4",
+        "en": "Project name 4",
+        "de": "Projektname 4"
     }
 }

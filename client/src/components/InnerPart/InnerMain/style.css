@@ -5,27 +5,98 @@
 .innerMain-hero {
   height: calc(85vh - 80px);
 }
-.innerMain-title {
-  font-weight: 900;
-  font-size: 96px;
-  line-height: 114.19%;
-  background: -webkit-linear-gradient(#046cf3, #000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-transform: uppercase;
-  margin-bottom: 20px;
+
+.innerMain-container {
+  background: rgba(242, 242, 242, 0.6);
+  border-radius: 5px;
+  padding: 40px 100px;
+  padding-bottom: 70px;
+  margin-bottom: 100px;
+
+  display: flex;
+  flex-wrap: wrap;
 }
-.innerMain-subtitle {
-  display: block;
-  font-weight: 500;
+
+.innerMain-container-title {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  margin-bottom: 2%;
+  color: #056cf2;
+  width: 100%;
+}
+
+.events-container{
+  width: 49%;
+}
+
+.events-conainer-title{
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 2%;
+}
+
+.line{
+  height: auto;
+  width: 1%;
+  background-color: #f2a007;
+}
+
+.event{
+  display: flex;
   font-size: 24px;
-  line-height: 151.19%;
-  text-transform: uppercase;
-  background: rgba(255, 255, 255, 0.86);
+  margin-bottom: 2%;
 }
-.innerMain-services-item {
-  width: 250px;
-  height: 250px;
+
+.event-date{
+  color: #f2a007;
+  text-shadow: -1px 0 rgba(0, 0, 0, 0.5), 0 1px rgba(0, 0, 0, 0.5),
+    1px 0 rgba(0, 0, 0, 0.5), 0 -1px rgba(0, 0, 0, 0.5);
+  
+  padding-right: 2%;
+}
+
+.innerMain-projects {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.best-worker{
+  width: 50vh;
+  height: 50vh;
+  background: radial-gradient(
+    56.2% 56.2% at 50% 50%,
+    #448ff2 0%,
+    rgba(68, 143, 242, 0.56) 37.5%,
+    rgba(255, 255, 255, 0) 100%
+  );
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.best-worker-img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40vh;
+  height: 40vh;
+  border-radius: 90%;
+
+  background-image: url('../../../../public/Workers/Neo.jpg');
+}
+
+.best-worker-container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.innerMain-projects-item {
+  width: 30vh;
+  height: 30vh;
   background: radial-gradient(
     56.2% 56.2% at 50% 50%,
     #448ff2 0%,
@@ -35,17 +106,32 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
-.innerMain-container-title {
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 56px;
-  margin-bottom: 80px;
+
+.project-img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 20vh;
+  height: 20vh;
 }
-.innerMain-container {
-  background: rgba(255, 255, 255, 0.86);
-  border-radius: 5px;
-  padding: 40px 100px;
-  padding-bottom: 70px;
-  margin-bottom: 100px;
+
+.project-img-1 {
+  background-image: url(../../../../public/service-img.png);
+}
+.project-img-2 {
+  background-image: url(../../../../public/project-management.png);
+}
+.project-img-3 {
+  background-image: url(../../../../public/technology.png);
+}
+.project-img-4 {
+  background-image: url(../../../../public/networking.png);
+}
+
+.project-name{
+  font-size: 26px;
+  color: #f2a007;
+  text-shadow: -1px 0 rgba(0, 0, 0, 0.5), 0 1px rgba(0, 0, 0, 0.5),
+    1px 0 rgba(0, 0, 0, 0.5), 0 -1px rgba(0, 0, 0, 0.5);
 }
