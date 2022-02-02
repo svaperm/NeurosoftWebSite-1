@@ -1,12 +1,85 @@
 {
-    "title":{
-        "ru": "нейрософт глобал",
-        "en": "neurosoft global",
-        "de": "neurosoft global"
+    "find-staff":{
+        "ru": "Поиск сотрудников",
+        "en": "Search for employees",
+        "de": "Mitarbeiter suchen"
     },
-    "subtitle":{
-        "ru": "высокотехнологичные программные продукты для российских и зарубежных компаний",
-        "en": "high-tech software products for Russian and foreign companies",
-        "de": "Hightech-Softwareprodukte für russische und ausländische Unternehmen"
+
+    "worker-name-1":{
+        "ru": "Имя Фамилия",
+        "en": "Name Lastname",
+        "de": "Name Nachname"
+    },
+
+    "worker-post-1":{
+        "ru": "Аналитик",
+        "en": "Analyst",
+        "de": "Analytiker"
+    },
+
+    "worker-name-2":{
+        "ru": "Имя Фамилия",
+        "en": "Name Lastname",
+        "de": "Name Nachname"
+    },
+
+    "worker-post-2":{
+        "ru": "Разработчик",
+        "en": "Developer",
+        "de": "Entwickler"
+    },
+
+    "worker-name-3":{
+        "ru": "Имя Фамилия",
+        "en": "Name Lastname",
+        "de": "Name Nachname"
+    },
+
+    "worker-post-3":{
+        "ru": "Тестировщик",
+        "en": "Tester",
+        "de": "Tester"
+    },
+
+    "contact-info":{
+        "ru": "Контактная информация",
+        "en": "Contact information",
+        "de": "Kontaktinformation"
+    },
+
+    "name":{
+        "ru": "Имя",
+        "en": "Name",
+        "de": "Name"
+    },
+
+    "lastname":{
+        "ru": "Фамилия",
+        "en": "Lastname",
+        "de": "Nachname"
+    },
+
+    "contact-email":{
+        "ru": "Контактный Email",
+        "en": "Contact Email",
+        "de": "Kontakt Email"
+    },
+
+    "phone":{
+        "ru": "Номер телефона",
+        "en": "Phone number",
+        "de": "Telefonnummer"
+    },
+
+    "about-me":{
+        "ru": "Обо мне",
+        "en": "About me",
+        "de": "Über mich"
+    },
+
+    "projects":{
+        "ru": "Участие в проектах",
+        "en": "Participation in projects",
+        "de": "Teilnahme an Projekten"
     }
 }
