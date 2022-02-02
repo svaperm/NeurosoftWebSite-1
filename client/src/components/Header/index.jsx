@@ -1,19 +1,20 @@
 import Nav from './components/Nav';
+import { useNavigate } from 'react-router-dom';
 import './style.css';
 
 import ChangeLanguage from '../../functions/changeLang';
 import texts from './texts.json';
 import DetectLanguage from '../../functions/detectLang';
 import InnerNav from './components/InnerNav';
-import React from 'react';
-
-import { NavLink } from 'react-router-dom';
+import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
+import { StoreContext } from '../../context/StoreContext';
 
 const lang = DetectLanguage();
 
-function Header() {
-  let [isInner, setIsInner] = React.useState(false);
-
+const Header = () => {
+  const { authorized, changeModalAuthState, changeAuthState } =
+    useContext(StoreContext) || {};
   return (
     <div className="header">
       <div className="logo"></div>
@@ -26,17 +27,23 @@ function Header() {
       ></div>
       <div className="header-menu-container">
         <nav className="header-nav">
-          <ul className="header-nav">{isInner ? <InnerNav /> : <Nav />}</ul>
+          <ul className="header-nav">{authorized ? <InnerNav /> : <Nav />}</ul>
         </nav>
         <div className="header-btns">
-          <NavLink
+          <Link
+            to={authorized ? '/innerMain' : '/'}
             className="header-btn"
-            to={isInner ? '/' : '/innerMain'}
-            onClick={() => setIsInner(!isInner)}
+            onClick={() => {
+              if (authorized) {
+                changeAuthState();
+              } else {
+                changeModalAuthState();
+              }
+            }}
           >
             <div className="btn-icon-sign-in"></div>
             <span className="btn-text">{texts['sign-in'][lang]}</span>
-          </NavLink>
+          </Link>
           <button className="header-btn">
             <div className="btn-icon-lang"></div>
             <select
@@ -53,6 +60,6 @@ function Header() {
       </div>
     </div>
   );
-}
+};
 
 export default Header;

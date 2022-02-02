@@ -8,26 +8,22 @@ import DetectLanguage from '../../functions/detectLang';
 
 const lang = DetectLanguage();
 
-function Support() {
-  return (
-    <div className="support">
-      <div className="support-hero">
-        <h1 className="support-title">{texts['title'][lang]}</h1>
-      </div>
-
-      <Question
-        title={texts['q-title-1'][lang]}
-        description={texts['q-text-1'][lang]}
-      />
-
-      <Question
-        title={texts['q-title-2'][lang]}
-        description={texts['q-text-2'][lang]}
-      />
-
-      <Ask />
+export const Support = () => (
+  <div className="support">
+    <div className="support-hero">
+      <h1 className="support-title">{texts['title'][lang]}</h1>
     </div>
-  );
-}
 
-export default Support;
+    <Question
+      title={texts['q-title-1'][lang]}
+      description={texts['q-text-1'][lang]}
+    />
+
+    <Question
+      title={texts['q-title-2'][lang]}
+      description={texts['q-text-2'][lang]}
+    />
+
+    <Ask />
+  </div>
+);

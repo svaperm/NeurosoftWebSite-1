@@ -6,7 +6,7 @@ import DetectLanguage from '../../../functions/detectLang';
 
 const lang = DetectLanguage();
 
-const InnerMain = () => (
+export const InnerMain = () => (
   <div className="innerMain">
     <Events />
 
@@ -45,4 +45,3 @@ const InnerMain = () => (
   </div>
 );
 
-export default InnerMain;

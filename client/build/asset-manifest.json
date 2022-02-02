@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/NeurosoftWebSite/client/deploy/static/css/main.48cd0d60.css",
-    "main.js": "/NeurosoftWebSite/client/deploy/static/js/main.5a723e51.js",
+    "main.css": "/NeurosoftWebSite/client/deploy/static/css/main.2e1b3ea1.css",
+    "main.js": "/NeurosoftWebSite/client/deploy/static/js/main.de27b932.js",
     "static/js/787.e234a9f2.chunk.js": "/NeurosoftWebSite/client/deploy/static/js/787.e234a9f2.chunk.js",
     "static/media/6-Roskazna.png": "/NeurosoftWebSite/client/deploy/static/media/6-Roskazna.6eb500dbcf3c046d70dc.png",
     "static/media/hero.jpg": "/NeurosoftWebSite/client/deploy/static/media/hero.60cd1b7240a1cd04cd4c.jpg",
     "static/media/4-Minfin.png": "/NeurosoftWebSite/client/deploy/static/media/4-Minfin.a875f87d70d58a4bba31.png",
     "static/media/11-Ribolovstvo.png": "/NeurosoftWebSite/client/deploy/static/media/11-Ribolovstvo.c7d34f00dd9204703c14.png",
     "static/media/10-Procuratura.png": "/NeurosoftWebSite/client/deploy/static/media/10-Procuratura.99d3dcf5facf194c25a2.png",
+    "static/media/Gena.jpg": "/NeurosoftWebSite/client/deploy/static/media/Gena.17e793b45c4a00e9595d.jpg",
     "static/media/9-MVD.png": "/NeurosoftWebSite/client/deploy/static/media/9-MVD.a194c3bdde2b547325d4.png",
     "static/media/inst.png": "/NeurosoftWebSite/client/deploy/static/media/inst.30aa3d38249d90c31947.png",
     "static/media/7-dom-rf.png": "/NeurosoftWebSite/client/deploy/static/media/7-dom-rf.2c59ee8bfb29ec9ce02d.png",
@@ -28,12 +29,12 @@
     "static/media/2-MVF.png": "/NeurosoftWebSite/client/deploy/static/media/2-MVF.498f0e77d6bc31585533.png",
     "static/media/Neo.jpg": "/NeurosoftWebSite/client/deploy/static/media/Neo.03b9ead17dc1a7b04712.jpg",
     "index.html": "/NeurosoftWebSite/client/deploy/index.html",
-    "main.48cd0d60.css.map": "/NeurosoftWebSite/client/deploy/static/css/main.48cd0d60.css.map",
-    "main.5a723e51.js.map": "/NeurosoftWebSite/client/deploy/static/js/main.5a723e51.js.map",
+    "main.2e1b3ea1.css.map": "/NeurosoftWebSite/client/deploy/static/css/main.2e1b3ea1.css.map",
+    "main.de27b932.js.map": "/NeurosoftWebSite/client/deploy/static/js/main.de27b932.js.map",
     "787.e234a9f2.chunk.js.map": "/NeurosoftWebSite/client/deploy/static/js/787.e234a9f2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.48cd0d60.css",
-    "static/js/main.5a723e51.js"
+    "static/css/main.2e1b3ea1.css",
+    "static/js/main.de27b932.js"
   ]
 }

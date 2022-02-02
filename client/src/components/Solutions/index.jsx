@@ -6,7 +6,7 @@ import DetectLanguage from '../../functions/detectLang';
 
 const lang = DetectLanguage();
 
-const Solutions = () => (
+export const Solutions = () => (
   <div className="solutions">
     <Solution title={texts['solution-title-1'][lang]} subtitle={texts['solution-subtitle-1'][lang]}/>
     <Solution title={texts['solution-title-2'][lang]} subtitle={texts['solution-subtitle-2'][lang]}/>
@@ -16,4 +16,3 @@ const Solutions = () => (
   </div>
 );
 
-export default Solutions;

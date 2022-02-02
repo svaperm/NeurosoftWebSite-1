@@ -5,10 +5,9 @@ import DetectLanguage from '../../../functions/detectLang';
 
 const lang = DetectLanguage();
 
-const Projects = () => (
+export const Projects = () => (
   <div className="projects">
     Projects
   </div>
 );
 
-export default Projects;

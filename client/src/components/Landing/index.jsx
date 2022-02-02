@@ -5,7 +5,7 @@ import DetectLanguage from '../../functions/detectLang';
 
 const lang = DetectLanguage();
 
-const Landing = () => (
+export const Landing = () => (
   <div className="landing">
     <div className="landing-hero">
       <h1 className="landing-title">{texts['title'][lang]}</h1>
@@ -45,5 +45,3 @@ const Landing = () => (
     </div>
   </div>
 );
-
-export default Landing;

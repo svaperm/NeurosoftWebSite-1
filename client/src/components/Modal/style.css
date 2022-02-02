@@ -1,0 +1,74 @@
+.modal-auth-wrapper {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-auth {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 20px 80px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.modal-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+.modal-text,
+.modal-input {
+  margin-bottom: 10px;
+}
+.modal-input {
+  height: 40px;
+  font-size: 16px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+.modal-btn {
+  font-weight: 300;
+  width: 150px;
+  height: 50px;
+  margin: auto;
+  font-size: 16px;
+  background-color: #4b71f8;
+  transition: 0.2s;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.modal-btn:hover {
+  background-color: #7d92d8;
+}
+.modal-btn:active {
+  background-color: #1e2641;
+}
+.close-modal {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 10px;
+  right: 10px;
+  background-image: url(../../../public/close.png);
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
