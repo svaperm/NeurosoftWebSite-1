@@ -2,19 +2,7 @@
   padding-top: 5%;
   position: relative;
 }
-.documentation-services-item {
-  width: 250px;
-  height: 250px;
-  background: radial-gradient(
-    56.2% 56.2% at 50% 50%,
-    #448ff2 0%,
-    rgba(68, 143, 242, 0.56) 37.5%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .documentation-container-title {
   font-weight: bold;
   font-size: 36px;
