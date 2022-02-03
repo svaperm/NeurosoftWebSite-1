@@ -1,12 +1,19 @@
 {
-    "title":{
-        "ru": "нейрософт глобал",
-        "en": "neurosoft global",
-        "de": "neurosoft global"
+    "shared-documents":{
+        "ru": "Общие документы",
+        "en": "Shared documents",
+        "de": "Veröffentlichte Dokumente"
     },
-    "subtitle":{
-        "ru": "высокотехнологичные программные продукты для российских и зарубежных компаний",
-        "en": "high-tech software products for Russian and foreign companies",
-        "de": "Hightech-Softwareprodukte für russische und ausländische Unternehmen"
+
+    "technologies":{
+        "ru": "Технологии",
+        "en": "Technologies",
+        "de": "Technologien"
+    },
+
+    "eLibrary":{
+        "ru": "Электронная библиотека",
+        "en": "Electronic Library",
+        "de": "Elektronische Bibliothek"
     }
 }
