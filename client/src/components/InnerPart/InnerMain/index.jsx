@@ -17,7 +17,7 @@ export const InnerMain = () => (
 
       <div className='best-worker'>
         <div className='best-worker-img'></div>
-        <div className='workers-post'>{texts['best-worker-post'][lang]}</div>
+        <div className='workers-post'>{texts['best-worker-fio'][lang]}</div>
       </div>
     </div>
 

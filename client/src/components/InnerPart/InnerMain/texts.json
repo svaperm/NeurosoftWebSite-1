@@ -59,10 +59,10 @@
         "de": "Bester Mitarbeiter des Monats"
     },
     
-    "best-worker-post":{
-        "ru": "Аналитик",
-        "en": "Analyst",
-        "de": "Analytiker"
+    "best-worker-fio":{
+        "ru": "Нео",
+        "en": "Neo",
+        "de": "Neo"
     },
     
     "projects-in-process":{

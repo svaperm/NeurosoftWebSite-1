@@ -1,12 +1,85 @@
 {
-    "title":{
-        "ru": "нейрософт глобал",
-        "en": "neurosoft global",
-        "de": "neurosoft global"
+    "our-projects":{
+        "ru": "Наши проекты",
+        "en": "Our projects",
+        "de": "Unsere Projekte"
     },
-    "subtitle":{
-        "ru": "высокотехнологичные программные продукты для российских и зарубежных компаний",
-        "en": "high-tech software products for Russian and foreign companies",
-        "de": "Hightech-Softwareprodukte für russische und ausländische Unternehmen"
+    
+    "project-name-1":{
+        "ru": "Название проекта 1",
+        "en": "Project name 1",
+        "de": "Projektname 1"
+    },
+    
+    "project-name-2":{
+        "ru": "Название проекта 2",
+        "en": "Project name 2",
+        "de": "Projektname 2"
+    },
+    
+    "project-name-3":{
+        "ru": "Название проекта 3",
+        "en": "Project name 3",
+        "de": "Projektname 3"
+    },
+    
+    "project-name-4":{
+        "ru": "Название проекта 4",
+        "en": "Project name 4",
+        "de": "Projektname 4"
+    },
+    
+    "project-description-1":{
+        "ru": "здесь будет текст описания здесь будет текст здесь будет текст  здесь будет текст ",
+        "en": "here will be the description text here will be the text here will be the text here will be the text",
+        "de": "hier wird der Beschreibungstext sein hier wird der Text sein hier wird der Text sein hier wird der Text sein"
+    },
+    
+    "project-description-2":{
+        "ru": "здесь будет текст описания здесь будет текст здесь будет текст  здесь будет текст ",
+        "en": "here will be the description text here will be the text here will be the text here will be the text",
+        "de": "hier wird der Beschreibungstext sein hier wird der Text sein hier wird der Text sein hier wird der Text sein"
+    },
+    
+    "project-description-3":{
+        "ru": "здесь будет текст описания здесь будет текст здесь будет текст  здесь будет текст ",
+        "en": "here will be the description text here will be the text here will be the text here will be the text",
+        "de": "hier wird der Beschreibungstext sein hier wird der Text sein hier wird der Text sein hier wird der Text sein"
+    },
+    
+    "project-description-4":{
+        "ru": "здесь будет текст описания здесь будет текст здесь будет текст  здесь будет текст ",
+        "en": "here will be the description text here will be the text here will be the text here will be the text",
+        "de": "hier wird der Beschreibungstext sein hier wird der Text sein hier wird der Text sein hier wird der Text sein"
+    },
+
+    "partners":{
+        "ru": "Партнёры",
+        "en": "Partners",
+        "de": "Partnern"
+    },
+    
+    "partner-name-1":{
+        "ru": "Название 1",
+        "en": "Partner 1",
+        "de": "Partner 1"
+    },
+    
+    "partner-name-2":{
+        "ru": "Название 2",
+        "en": "Partner 2",
+        "de": "Partner 2"
+    },
+    
+    "partner-name-3":{
+        "ru": "Название 3",
+        "en": "Partner 3",
+        "de": "Partner 3"
+    },
+    
+    "partner-name-4":{
+        "ru": "Название 4",
+        "en": "Partner 4",
+        "de": "Partner 41"
     }
 }

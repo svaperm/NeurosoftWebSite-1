@@ -2,50 +2,71 @@
   padding-top: 5%;
   position: relative;
 }
-.projects-hero {
-  height: calc(85vh - 80px);
-}
-.projects-title {
-  font-weight: 900;
-  font-size: 96px;
-  line-height: 114.19%;
-  background: -webkit-linear-gradient(#046cf3, #000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-}
-.projects-subtitle {
-  display: block;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 151.19%;
-  text-transform: uppercase;
-  background: rgba(255, 255, 255, 0.86);
-}
-.projects-services-item {
-  width: 250px;
-  height: 250px;
-  background: radial-gradient(
-    56.2% 56.2% at 50% 50%,
-    #448ff2 0%,
-    rgba(68, 143, 242, 0.56) 37.5%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .projects-container-title {
   font-weight: bold;
   font-size: 48px;
-  line-height: 56px;
-  margin-bottom: 80px;
+  line-height: 36px;
+  margin-bottom: 30px;
 }
 .projects-container {
-  background: rgba(255, 255, 255, 0.86);
+  background: #f2f2f2;
   border-radius: 5px;
   padding: 40px 100px;
   padding-bottom: 70px;
   margin-bottom: 100px;
+}
+
+.projects-subcontainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project{
+  margin: 1%;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+.partner-img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 20vh;
+  height: 20vh;
+}
+.partner-img-1{
+  background-image: url(../../../../public/augmented_reality_target_cube_d_icon_134247.png);
+}
+.partner-img-2{
+  background-image: url(../../../../public/augmented_reality_target_cube_d_icon_134247.png);
+}
+.partner-img-3{
+  background-image: url(../../../../public/augmented_reality_target_cube_d_icon_134247.png);
+}
+.partner-img-4{
+  background-image: url(../../../../public/augmented_reality_target_cube_d_icon_134247.png);
+}
+
+.partner{
+  display: flex;
+}
+
+.projects-text{
+  width: 20vw;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.projects-title{
+  font-size: 26px;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  font-weight: bold;
 }
