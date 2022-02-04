@@ -1,12 +1,43 @@
 {
-    "title":{
-        "ru": "нейрософт глобал",
-        "en": "neurosoft global",
-        "de": "neurosoft global"
+    "news":{
+        "ru": "Новости",
+        "en": "News",
+        "de": "Nachrichten"
     },
-    "subtitle":{
-        "ru": "высокотехнологичные программные продукты для российских и зарубежных компаний",
-        "en": "high-tech software products for Russian and foreign companies",
-        "de": "Hightech-Softwareprodukte für russische und ausländische Unternehmen"
+
+    "news-title-1":{
+        "ru": "В Нейрософт Глобал произошло событие",
+        "en": "An event occurred in Neurosoft Global",
+        "de": "In Neurosoft Global ist ein Ereignis aufgetreten"
+    },
+
+    "news-description-1":{
+        "ru": "Здесь будет текст описания события  Здесь будет текст описания события  Здесь будет текст описания события  Здесь будет текст описания события  Здесь будет текст описания события  Здесь будет текст описания события  Здесь будет текст описания события",
+        "en": "Here will be the text of the event description Here will be the text of the event description Here will be the text of the event description Here will be the text of the event description Here will be the text of the event description Here will be the text of the event description Here will be the text of the event description",
+        "de": "Hier wird der Text der Ereignisbeschreibung sein Hier wird der Text der Ereignisbeschreibung sein Hier wird der Text der Ereignisbeschreibung sein Hier wird der Text der Ereignisbeschreibung sein Hier wird der Text der Ereignisbeschreibung sein Hier wird der Text sein der Veranstaltungsbeschreibung Hier steht der Text der Veranstaltungsbeschreibung"
+    },
+
+    "news-title-2":{
+        "ru": "В Нейрософт Глобал произошло событие",
+        "en": "An event occurred in Neurosoft Global",
+        "de": "In Neurosoft Global ist ein Ereignis aufgetreten"
+    },
+
+    "news-description-2":{
+        "ru": "Здесь будет текст описания события  Здесь будет текст описания события  Здесь будет текст описания события  Здесь будет текст описания события  Здесь будет текст описания события  Здесь будет текст описания события  Здесь будет текст описания события",
+        "en": "Here will be the text of the event description Here will be the text of the event description Here will be the text of the event description Here will be the text of the event description Here will be the text of the event description Here will be the text of the event description Here will be the text of the event description",
+        "de": "Hier wird der Text der Ereignisbeschreibung sein Hier wird der Text der Ereignisbeschreibung sein Hier wird der Text der Ereignisbeschreibung sein Hier wird der Text der Ereignisbeschreibung sein Hier wird der Text der Ereignisbeschreibung sein Hier wird der Text sein der Veranstaltungsbeschreibung Hier steht der Text der Veranstaltungsbeschreibung"
+    },
+
+    "news-title-3":{
+        "ru": "В Нейрософт Глобал произошло событие",
+        "en": "An event occurred in Neurosoft Global",
+        "de": "In Neurosoft Global ist ein Ereignis aufgetreten"
+    },
+
+    "news-description-3":{
+        "ru": "Здесь будет текст описания события  Здесь будет текст описания события  Здесь будет текст описания события  Здесь будет текст описания события  Здесь будет текст описания события  Здесь будет текст описания события  Здесь будет текст описания события",
+        "en": "Here will be the text of the event description Here will be the text of the event description Here will be the text of the event description Here will be the text of the event description Here will be the text of the event description Here will be the text of the event description Here will be the text of the event description",
+        "de": "Hier wird der Text der Ereignisbeschreibung sein Hier wird der Text der Ereignisbeschreibung sein Hier wird der Text der Ereignisbeschreibung sein Hier wird der Text der Ereignisbeschreibung sein Hier wird der Text der Ereignisbeschreibung sein Hier wird der Text sein der Veranstaltungsbeschreibung Hier steht der Text der Veranstaltungsbeschreibung"
     }
 }
