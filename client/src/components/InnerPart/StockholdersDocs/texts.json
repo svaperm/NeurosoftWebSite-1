@@ -1,12 +1,19 @@
 {
-    "title":{
-        "ru": "нейрософт глобал",
-        "en": "neurosoft global",
-        "de": "neurosoft global"
+    "constituent-documents":{
+        "ru": "Учредительные документы",
+        "en": "Constituent documents",
+        "de": "Konstituierende Dokumente"
     },
-    "subtitle":{
-        "ru": "высокотехнологичные программные продукты для российских и зарубежных компаний",
-        "en": "high-tech software products for Russian and foreign companies",
-        "de": "Hightech-Softwareprodukte für russische und ausländische Unternehmen"
+
+    "accounting-statements":{
+        "ru": "Бухгалтерская отчётность",
+        "en": "Accounting statements",
+        "de": "Rechnungslegung"
+    },
+
+    "financial-plan":{
+        "ru": "Финансовый план",
+        "en": "Financial plan",
+        "de": "Finanzplan"
     }
 }
