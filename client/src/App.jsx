@@ -6,7 +6,7 @@ import { ModalAuth } from './components/Modal';
 import React from 'react';
 import { StoreContainer } from './context/StoreContext';
 import { innerRoutes, outerRoutes } from './components/constants/routes';
-
+import { Footer } from './components/Footer';
 
 const App = () => (
   <StoreContainer>
@@ -24,21 +24,7 @@ const App = () => (
           ))}
         </Routes>
       </div>
-      <div className="footer">
-        <div className="logo"></div>
-        <nav className="footer-nav">
-          <ul>
-            <Nav />
-          </ul>
-        </nav>
-        <ul className="social-nav">
-          {['instagram', 'facebook', 'telegram', 'vk'].map((value) => (
-            <li>
-              <a href="#" className={`social-item ${value}`}></a>
-            </li>
-          ))}
-        </ul>
-      </div>
+      <Footer />
     </div>
   </StoreContainer>
 );
