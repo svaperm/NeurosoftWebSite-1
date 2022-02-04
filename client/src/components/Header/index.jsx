@@ -13,8 +13,9 @@ import { StoreContext } from '../../context/StoreContext';
 const lang = DetectLanguage();
 
 const Header = () => {
-  const { authorized, changeModalAuthState, changeAuthState } =
+  const { authorized, changeModalAuthState, changeModalExitState } =
     useContext(StoreContext) || {};
+  // const navigate = useNavigate();
   return (
     <div className="header">
       <div className="logo"></div>
@@ -30,12 +31,12 @@ const Header = () => {
           <ul className="header-nav">{authorized ? <InnerNav /> : <Nav />}</ul>
         </nav>
         <div className="header-btns">
-          <Link
-            to={authorized ? '/innerMain' : '/'}
+          <button
             className="header-btn"
             onClick={() => {
               if (authorized) {
-                changeAuthState();
+                changeModalExitState();
+                // navigate.push('/');
               } else {
                 changeModalAuthState();
               }
@@ -43,7 +44,7 @@ const Header = () => {
           >
             <div className="btn-icon-sign-in"></div>
             <span className="btn-text">{texts['sign-in'][lang]}</span>
-          </Link>
+          </button>
           <button className="header-btn">
             <div className="btn-icon-lang"></div>
             <select

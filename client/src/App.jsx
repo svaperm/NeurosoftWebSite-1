@@ -1,17 +1,18 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
-import Nav from './components/Header/components/Nav';
-import { ModalAuth } from './components/Modal';
+import { ModalAuth } from './components/Modal/ModalAuth';
 import React from 'react';
 import { StoreContainer } from './context/StoreContext';
 import { innerRoutes, outerRoutes } from './components/constants/routes';
 import { Footer } from './components/Footer';
+import { ModalExit } from './components/Modal/ModalExit';
 
 const App = () => (
   <StoreContainer>
     <div className="App">
       <ModalAuth />
+      <ModalExit />
       <Header />
       <div className="container">
         <Routes>

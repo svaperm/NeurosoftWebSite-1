@@ -5,6 +5,7 @@ export const StoreContext = React.createContext();
 let initialState = {
   authorized: false,
   modalAuth: false,
+  modalExit: false,
 };
 
 export const StoreContainer = (props) => {
@@ -28,13 +29,24 @@ export const StoreContainer = (props) => {
     });
   };
 
+  const changeModalExitState = () => {
+    setState((prevState) => {
+      return {
+        ...prevState,
+        modalExit: !prevState.modalExit,
+      };
+    });
+  };
+
   return (
     <StoreContext.Provider
       value={{
         authorized: state.authorized,
         modalAuth: state.modalAuth,
+        modalExit: state.modalExit,
         changeAuthState: changeAuthState,
         changeModalAuthState: changeModalAuthState,
+        changeModalExitState: changeModalExitState,
       }}
     >
       {props.children}

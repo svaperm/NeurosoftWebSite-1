@@ -69,6 +69,15 @@
   background-image: url(../../../public/close.png);
   cursor: pointer;
 }
+.modal-exit {
+  height: 300px;
+}
+.btns-wrapper {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: auto;
+}
 .hidden {
   display: none;
 }
