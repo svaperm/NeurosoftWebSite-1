@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { StoreContext } from '../../context/StoreContext';
 import './style.css';
 
@@ -14,7 +14,7 @@ export const ModalAuth = () => {
         <input type="text" className="modal-input" />
         <span className="modal-text">Пароль</span>
         <input type="password" className="modal-input" />
-        <Link
+        <NavLink
           className="modal-btn"
           to="/innerMain"
           onClick={() => {
@@ -24,7 +24,7 @@ export const ModalAuth = () => {
           }}
         >
           Войти
-        </Link>
+        </NavLink>
       </div>
     </div>
   );

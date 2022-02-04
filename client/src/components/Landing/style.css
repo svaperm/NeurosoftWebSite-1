@@ -7,7 +7,7 @@
 }
 .landing-title {
   font-weight: 900;
-  font-size: 96px;
+  font-size: 72px;
   line-height: 114.19%;
   background: -webkit-linear-gradient(#046cf3, #000);
   -webkit-background-clip: text;
@@ -18,7 +18,7 @@
 .landing-subtitle {
   display: block;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 151.19%;
   text-transform: uppercase;
   background: rgba(255, 255, 255, 0.86);
@@ -26,8 +26,8 @@
 .hero-world {
   background-image: url(../../../public/hero-world.svg);
   position: absolute;
-  width: 624px;
-  height: 546px;
+  width: 400px;
+  height: 350px;
   background-size: contain;
   top: 12%;
   right: 15%;
@@ -48,7 +48,7 @@
 }
 .landing-container-title {
   font-weight: bold;
-  font-size: 48px;
+  font-size: 36px;
   line-height: 56px;
   margin-bottom: 80px;
 }
@@ -128,7 +128,6 @@
   .hero-world {
     right: 15%;
   }
-
 }
 @media (max-width: 1100px) {
   .landing-title {

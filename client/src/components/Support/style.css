@@ -11,7 +11,7 @@
 
 .support-title {
   font-weight: 900;
-  font-size: 96px;
+  font-size: 72px;
   line-height: 114.19%;
   background: -webkit-linear-gradient(#046cf3, #000);
   -webkit-background-clip: text;
@@ -28,29 +28,23 @@
   padding-right: 40px;
   padding-bottom: 30px;
   margin-bottom: 100px;
-
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .support-container-title {
-  font-size: 48px;
+  font-size: 36px;
   line-height: 56px;
-  margin-bottom: 56px;
+  margin-bottom: 30px;
   margin-top: auto;
-
-  color: #f2a007;
-  text-shadow: -1px 0 rgba(0, 0, 0, 0.6), 0 1px rgba(0, 0, 0, 0.6),
-    1px 0 rgba(0, 0, 0, 0.6), 0 -1px rgba(0, 0, 0, 0.6);
-
   margin-right: 0px;
 }
 
 .support-container-description {
   display: block;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 151.19%;
   text-transform: uppercase;
   margin-right: 0px;

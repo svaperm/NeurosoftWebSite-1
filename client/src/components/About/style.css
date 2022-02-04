@@ -7,32 +7,13 @@
 
 .about-hero {
   height: calc(60vh - 80px);
-
   display: block;
-  text-align: center;
 }
 
 .mission {
   font-weight: bold;
-  font-size: 96px;
-  background: conic-gradient(
-    from 180deg at 50% 50%,
-    #f2a007 -7.5deg,
-    rgba(0, 71, 255, 0.9) 46.87deg,
-    #f2a007 110.62deg,
-    #0773ff 157.5deg,
-    #f2a007 236.25deg,
-    #f2a007 249.37deg,
-    rgba(114, 132, 134, 0.994903) 260.62deg,
-    rgba(114, 132, 134, 0.994903) 260.66deg,
-    rgba(12, 110, 235, 0.990841) 269.59deg,
-    #f2a007 269.63deg,
-    rgba(114, 132, 134, 0.994903) 290.63deg,
-    #f2a007 309.38deg,
-    #f2a007 318.75deg,
-    #f2a007 352.5deg,
-    rgba(0, 71, 255, 0.9) 406.88deg
-  );
+  font-size: 72px;
+  background: -webkit-linear-gradient(#046cf3, #000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 900;
@@ -41,7 +22,7 @@
 
 .about-subtitle {
   font-weight: 500;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 151.19%;
   text-transform: uppercase;
   width: 650px;
@@ -58,11 +39,9 @@
 
 .about-container-title {
   font-weight: bold;
-  font-size: 48px;
+  font-size: 36px;
   line-height: 56px;
   margin-bottom: 80px;
-
-  color: #056cf2;
   text-decoration: underline;
   text-align: center;
 }

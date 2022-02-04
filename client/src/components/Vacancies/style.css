@@ -7,14 +7,12 @@
 
 .vacancies-hero {
   height: calc(60vh - 80px);
-
   display: block;
-  text-align: center;
 }
 
 .vacancies-title {
   font-weight: 900;
-  font-size: 96px;
+  font-size: 72px;
   line-height: 114.19%;
   background: -webkit-linear-gradient(#046cf3, #000);
   -webkit-background-clip: text;
@@ -25,7 +23,7 @@
 
 .vacancies-subtitle {
   font-weight: 500;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 151.19%;
   text-transform: uppercase;
   width: 650px;
@@ -48,29 +46,24 @@
   padding-right: 10px;
   padding-bottom: 30px;
   margin-bottom: 100px;
-
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  border-radius: 15px;
 }
 
 .vacancies-container-title {
-  font-size: 48px;
+  font-size: 36px;
   line-height: 56px;
-  margin-bottom: 56px;
+  margin-bottom: 30px;
   margin-top: auto;
-
-  color: #f2a007;
-  text-shadow: -1px 0 rgba(0, 0, 0, 0.6), 0 1px rgba(0, 0, 0, 0.6),
-    1px 0 rgba(0, 0, 0, 0.6), 0 -1px rgba(0, 0, 0, 0.6);
-
   margin-right: 0px;
 }
 
 .vacancies-container-description {
   display: block;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 151.19%;
   text-transform: uppercase;
   margin-right: 0px;
@@ -93,7 +86,7 @@
   width: 40%;
   display: flex;
   flex-direction: column;
-  font-size: 36px;
+  font-size: 24px;
   margin-right: 10%;
   margin-top: 1%;
 }
@@ -104,6 +97,7 @@
   flex-direction: column;
   font-size: 36px;
   margin-right: 60%;
+  height: 60px;
 }
 
 .vacancies-input {
@@ -111,7 +105,7 @@
 }
 
 .vacancies-input-find {
-  margin-top: 10%;
+  margin-top: 2%;
   width: 40%;
   height: 100px;
 }
@@ -119,13 +113,24 @@
 .vacancies-respond-btn {
   margin-top: 1%;
   width: 20%;
-  height: 100px;
+  height: 60px;
+  transition: .2s;
 }
 
+.vacancies-respond-btn:hover {
+  background-color: #046cf3;
+  color: #fff;
+}
+.vacancies-respond-btn:active {
+  background-color: #76b2ffaf;
+}
 .vacancies-letter {
   font-size: 24px;
   resize: none;
   border: 1px solid #000;
+}
+.services-input-resume {
+  border: none;
 }
 
 @media (max-width: 1400px) {
@@ -251,10 +256,11 @@
   .vacancies-title {
     font-size: 26px;
   }
-  .services-input, .vacancies-container-description {
+  .services-input,
+  .vacancies-container-description {
     font-size: 14px;
   }
-  .vacancies-page-img{
+  .vacancies-page-img {
     width: 15%;
   }
   .services-input-resume {

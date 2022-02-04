@@ -11,7 +11,7 @@
 
 .services-title {
   font-weight: 900;
-  font-size: 96px;
+  font-size: 72px;
   line-height: 114.19%;
   background: -webkit-linear-gradient(#046cf3, #000);
   -webkit-background-clip: text;
@@ -22,7 +22,7 @@
 .services-subtitle {
   display: block;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 151.19%;
   text-transform: uppercase;
   max-width: 800px;
@@ -43,21 +43,17 @@
 }
 
 .services-container-title {
-  font-size: 48px;
+  font-size: 36px;
   line-height: 56px;
   margin-bottom: 56px;
   margin-top: auto;
-
-  color: #f2a007;
-  text-shadow: -1px 0 rgba(0, 0, 0, 0.6), 0 1px rgba(0, 0, 0, 0.6),
-    1px 0 rgba(0, 0, 0, 0.6), 0 -1px rgba(0, 0, 0, 0.6);
   margin-right: 0px;
 }
 
 .services-container-description {
   display: block;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 151.19%;
   text-transform: uppercase;
   margin-right: 0px;
@@ -80,15 +76,17 @@
   width: 40%;
   display: flex;
   flex-direction: column;
-  font-size: 36px;
+  font-size: 24px;
   margin-right: 10%;
+  margin-bottom: 10px;
 }
 
 .services-input {
-  font-size: 24px;
+  font-size: 18px;
   border: 1px solid #000;
   transition: 0.2s;
   cursor: pointer;
+  height: 40px;
 }
 
 .services-input-send:hover {
@@ -100,7 +98,7 @@
 .services-input-send {
   margin-top: 10%;
   width: 60%;
-  height: 100px;
+  height: 60px;
 }
 
 @media (max-width: 1500px) {

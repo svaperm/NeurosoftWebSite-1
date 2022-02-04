@@ -6,7 +6,6 @@ ul {
   list-style-type: none;
 }
 .container {
-  background: url(../public/hero.jpg);
   height: 100%;
   background-repeat: no-repeat;
   background-repeat: repeat-y;

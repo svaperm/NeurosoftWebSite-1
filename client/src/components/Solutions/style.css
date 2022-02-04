@@ -4,11 +4,10 @@
 
 .solution-title {
   font-weight: bold;
-  font-size: 64px;
+  font-size: 48px;
   line-height: 114.19%;
   text-align: center;
   letter-spacing: 0.08em;
-  color: rgba(5, 108, 242, 0.88);
   margin-bottom: 30px;
 }
 .solution-container {
@@ -29,11 +28,11 @@
   border: none;
   width: 200px;
   height: 5px;
-  background-color: #4b71f8;
+  background-color: #000;
   margin-bottom: 100px;
 }
 .solution-description {
-  font-size: 32px;
+  font-size: 24px;
   line-height: 114.19%;
   text-align: center;
   color: #304562;
