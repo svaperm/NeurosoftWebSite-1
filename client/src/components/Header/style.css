@@ -71,6 +71,16 @@
 .header-btn:first-child {
   margin-right: 25px;
 }
+.header-btn-notifications{
+  margin-left: 5%;
+}
+.btn-icon-notifications{
+  background-image: url(../../../public/notifications.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 30px;
+  width: 30px;
+}
 .btn-icon-sign-in {
   background-image: url(../../../public/sign-in.png);
   background-repeat: no-repeat;

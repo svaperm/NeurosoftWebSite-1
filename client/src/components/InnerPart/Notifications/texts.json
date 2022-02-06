@@ -1,0 +1,109 @@
+{
+    "status":{
+        "ru": "Статус",
+        "en": "Status",
+        "de": "Status"
+    },
+
+    "solved":{
+        "ru": "Решено",
+        "en": "Solved",
+        "de": "Gelöst"
+    },
+
+    "not-solved":{
+        "ru": "Не решено",
+        "en": "Not solved",
+        "de": "Nicht gelöst"
+    },
+
+    "in-processing":{
+        "ru": "В обработке",
+        "en": "In processing",
+        "de": "In Bearbeitung"
+    },
+
+    "service-request":{
+        "ru": "Запросы на услугу",
+        "en": "Service Requests",
+        "de": "Serviceanfragen"
+    },
+
+    "questions":{
+        "ru": "Вопросы от клиентов",
+        "en": "Questions from customers",
+        "de": "Fragen von Kunden"
+    },
+
+    "responses":{
+        "ru": "Отклики на вакансии",
+        "en": "Responses to vacancies",
+        "de": "Antworten auf Stellenangebote"
+    },
+
+    "service":{
+        "ru": "Услуга",
+        "en": "Service",
+        "de": "Dienstleistung"
+    },
+
+    "lastname":{
+        "ru": "Фамилия",
+        "en": "Lastname",
+        "de": "Nachname"
+    },
+
+    "name":{
+        "ru": "Имя",
+        "en": "Name",
+        "de": "Name"
+    },
+
+    "city":{
+        "ru": "Город",
+        "en": "City",
+        "de": "Stadt"
+    },
+
+    "phone":{
+        "ru": "Телефон",
+        "en": "Phone number",
+        "de": "Telefonnummer"
+    },
+
+    "email":{
+        "ru": "Email",
+        "en": "Email",
+        "de": "Email"
+    },
+
+    "notes":{
+        "ru": "Заметки",
+        "en": "Notes",
+        "de": "Anmerkungen"
+    },
+
+    "question":{
+        "ru": "Вопрос",
+        "en": "Question",
+        "de": "Frage"
+    },
+
+    "vacancy":{
+        "ru": "Вакансия",
+        "en": "Vacancy",
+        "de": "Stellenangebot"
+    },
+
+    "resume":{
+        "ru": "Резюме",
+        "en": "Resume",
+        "de": "Zusammenfassung"
+    },
+
+    "letter":{
+        "ru": "Сопроводительное письмо",
+        "en": "Accompanying letter",
+        "de": "beiliegender Brief"
+    }
+}

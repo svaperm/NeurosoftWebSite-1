@@ -57,6 +57,14 @@ const Header = () => {
               <option value="de">DE</option>
             </select>
           </button>
+
+          {authorized ? 
+            <Link 
+              to='/notifications'
+              className="header-btn header-btn-notifications">
+                <div className="btn-icon-notifications"></div>
+            </Link> : <></>
+          }
         </div>
       </div>
     </div>

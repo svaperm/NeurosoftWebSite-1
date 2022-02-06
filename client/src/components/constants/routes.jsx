@@ -10,6 +10,7 @@ import { Services } from '../Services';
 import { Solutions } from '../Solutions';
 import { Support } from '../Support';
 import { Vacancies } from '../Vacancies';
+import { Notifications } from '../InnerPart/Notifications';
 
 export const outerRoutes = [
   { path: '/', component: <Landing /> },
@@ -27,4 +28,5 @@ export const innerRoutes = [
   { path: '/documentation', component: <Documentation /> },
   { path: '/news', component: <News /> },
   { path: '/stockholders-docs', component: <StockholdersDocs /> },
+  { path: '/notifications', component: <Notifications />}
 ];
