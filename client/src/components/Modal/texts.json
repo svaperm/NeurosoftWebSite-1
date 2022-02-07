@@ -1,0 +1,43 @@
+{
+    "log-in-sys":{
+        "ru": "Вход в систему",
+        "en": "Log in to the system",
+        "de": "Melden Sie sich am System an"
+    },
+
+    "login":{
+        "ru": "Логин",
+        "en": "Login",
+        "de": "Login"
+    },
+
+    "password":{
+        "ru": "Пароль",
+        "en": "Password",
+        "de": "Passwort"
+    },
+
+    "sign-in":{
+        "ru": "Войти",
+        "en": "Sign in",
+        "de": "Anmelden"
+    },
+
+    "sure":{
+        "ru": "Вы действительно хотите выйти?",
+        "en": "Are you sure?",
+        "de": "Bist du sicher?"
+    },
+
+    "yes":{
+        "ru": "Да",
+        "en": "Yes",
+        "de": "Ja"
+    },
+
+    "сancel":{
+        "ru": "Отмена",
+        "en": "Cancel",
+        "de": "Abbrechen"
+    }
+}

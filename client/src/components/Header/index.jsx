@@ -43,7 +43,7 @@ const Header = () => {
             }}
           >
             <div className="btn-icon-sign-in"></div>
-            <span className="btn-text">{texts['sign-in'][lang]}</span>
+            <span className="btn-text">{authorized ? texts['log-out'][lang] : texts['sign-in'][lang]}</span>
           </button>
           <button className="header-btn">
             <div className="btn-icon-lang"></div>

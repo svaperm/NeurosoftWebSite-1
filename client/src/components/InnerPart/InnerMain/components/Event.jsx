@@ -8,6 +8,7 @@ const lang = DetectLanguage();
 function Event(props){
     return(
         <div className='event'>
+            <hr align="center" width="100%" size="1" color="#f2a007"></hr>
             <div className='event-date'>
                 {props.date}
             </div>
