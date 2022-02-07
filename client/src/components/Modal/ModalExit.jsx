@@ -3,6 +3,11 @@ import { NavLink } from 'react-router-dom';
 import { StoreContext } from '../../context/StoreContext';
 import './style.css';
 
+import DetectLanguage from '../../functions/detectLang';
+import texts from './texts.json';
+
+const lang = DetectLanguage();
+
 export const ModalExit = () => {
   const { changeModalExitState, modalExit, changeAuthState } =
     useContext(StoreContext) || {};
@@ -15,7 +20,7 @@ export const ModalExit = () => {
             changeModalExitState();
           }}
         ></div>
-        <h2 className="modal-title">Вы действительно хотите выйти?</h2>
+        <h2 className="modal-title">{texts['sure'][lang]}</h2>
         <div className="btns-wrapper">
           <NavLink
             className="modal-btn"
@@ -25,7 +30,7 @@ export const ModalExit = () => {
               changeModalExitState();
             }}
           >
-            Да
+            {texts['yes'][lang]}
           </NavLink>
           <button
             className="modal-btn"
@@ -33,7 +38,7 @@ export const ModalExit = () => {
               changeModalExitState();
             }}
           >
-            Отмена
+            {texts['сancel'][lang]}
           </button>
         </div>
       </div>

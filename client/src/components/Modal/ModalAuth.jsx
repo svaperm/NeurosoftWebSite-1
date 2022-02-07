@@ -3,6 +3,11 @@ import { NavLink } from 'react-router-dom';
 import { StoreContext } from '../../context/StoreContext';
 import './style.css';
 
+import DetectLanguage from '../../functions/detectLang';
+import texts from './texts.json';
+
+const lang = DetectLanguage();
+
 export const ModalAuth = () => {
   const { changeAuthState, modalAuth, changeModalAuthState } =
     useContext(StoreContext) || {};
@@ -15,10 +20,10 @@ export const ModalAuth = () => {
             changeModalAuthState();
           }}
         ></div>
-        <h2 className="modal-title">Вход в систему</h2>
-        <span className="modal-text">Логин</span>
+        <h2 className="modal-title">{texts['log-in-sys'][lang]}</h2>
+        <span className="modal-text">{texts['login'][lang]}</span>
         <input type="text" className="modal-input" />
-        <span className="modal-text">Пароль</span>
+        <span className="modal-text">{texts['password'][lang]}</span>
         <input type="password" className="modal-input" />
         <NavLink
           className="modal-btn"
@@ -28,7 +33,7 @@ export const ModalAuth = () => {
             changeModalAuthState();
           }}
         >
-          Войти
+          {texts['sign-in'][lang]}
         </NavLink>
       </div>
     </div>

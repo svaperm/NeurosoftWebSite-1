@@ -46,6 +46,12 @@
     "de": "Ausloggen"
   },
 
+  "log-out": {
+    "ru": "Выход",
+    "en": "Log out",
+    "de": "Ausloggen"
+  },
+
   "staff": {
     "ru": "Сотрудники",
     "en": "Staff",
