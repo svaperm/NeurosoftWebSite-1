@@ -13,9 +13,6 @@
 .mission {
   font-weight: bold;
   font-size: 72px;
-  background: -webkit-linear-gradient(#046cf3, #000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   font-weight: 900;
   line-height: 114.19%;
 }
@@ -25,7 +22,6 @@
   font-size: 18px;
   line-height: 151.19%;
   text-transform: uppercase;
-  width: 650px;
   background: rgba(255, 255, 255, 0.86);
 }
 
@@ -42,7 +38,6 @@
   font-size: 36px;
   line-height: 56px;
   margin-bottom: 80px;
-  text-decoration: underline;
   text-align: center;
 }
 
@@ -57,13 +52,6 @@
 .about-workers-item {
   width: 250px;
   height: 250px;
-  background: radial-gradient(
-    56.2% 56.2% at 50% 50%,
-    #448ff2 0%,
-    rgba(68, 143, 242, 0.56) 37.5%,
-    rgba(255, 255, 255, 0) 100%
-  );
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -78,17 +66,6 @@
 .workers-post {
   font-size: 24px;
 }
-
-.workers-img-1 {
-  background-image: url(../../../public/Workers/Neo.jpg);
-}
-.workers-img-2 {
-  background-image: url(../../../public/Workers/Smith.jpg);
-}
-.workers-img-3 {
-  background-image: url(../../../public/Workers/Tompson.jpg);
-}
-
 .about-companies {
   display: flex;
   justify-content: space-between;
@@ -106,9 +83,9 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-
-  width: 320px;
+  width: 220px;
   height: 160px;
+  margin: 20px;
 }
 
 .companies-img-1 {

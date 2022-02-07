@@ -43,7 +43,9 @@ const Header = () => {
             }}
           >
             <div className="btn-icon-sign-in"></div>
-            <span className="btn-text">{texts['sign-in'][lang]}</span>
+            <span className="btn-text">
+              {!authorized ? texts['sign-in'][lang] : texts['sign-out'][lang]}
+            </span>
           </button>
           <button className="header-btn">
             <div className="btn-icon-lang"></div>
@@ -58,13 +60,16 @@ const Header = () => {
             </select>
           </button>
 
-          {authorized ? 
-            <Link 
-              to='/notifications'
-              className="header-btn header-btn-notifications">
-                <div className="btn-icon-notifications"></div>
-            </Link> : <></>
-          }
+          {authorized ? (
+            <Link
+              to="/notifications"
+              className="header-btn header-btn-notifications"
+            >
+              <div className="btn-icon-notifications"></div>
+            </Link>
+          ) : (
+            <></>
+          )}
         </div>
       </div>
     </div>

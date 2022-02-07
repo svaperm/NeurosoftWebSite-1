@@ -13,9 +13,6 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 114.19%;
-  background: -webkit-linear-gradient(#046cf3, #000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
@@ -37,9 +34,7 @@
   padding-right: 10px;
   padding-bottom: 30px;
   margin-bottom: 100px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+
 }
 
 .services-container-title {
@@ -61,6 +56,12 @@
 
 .services-container-text {
   width: 75%;
+}
+.inputs-container {
+  width: 70%;
+  margin: auto;
+  position: relative;
+  padding-bottom: 100px;
 }
 
 .service-page-img {
@@ -99,6 +100,18 @@
   margin-top: 10%;
   width: 60%;
   height: 60px;
+}
+.ant-form-item-label {
+  text-align: left;
+}
+.ant-form-large .ant-form-item-label > label {
+  font-size: 20px;
+}
+.ant-card-head-title {
+  font-size: 24px;
+}
+.ant-card-body {
+  background: #fff;
 }
 
 @media (max-width: 1500px) {

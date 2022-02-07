@@ -40,6 +40,11 @@
     "en": "Sign-in",
     "de": "Anmelden"
   },
+  "sign-out": {
+    "ru": "Выход",
+    "en": "Log out",
+    "de": "Ausloggen"
+  },
 
   "staff": {
     "ru": "Сотрудники",

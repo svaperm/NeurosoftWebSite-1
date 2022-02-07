@@ -1,7 +1,10 @@
 import '../style.css';
-
+import { Input, Form, Button, Select } from 'antd';
+import { InfoCircleOutlined, UserOutlined } from '@ant-design/icons';
 import texts from '../texts.json';
 import DetectLanguage from '../../../functions/detectLang';
+
+const { Option } = Select;
 
 const lang = DetectLanguage();
 
@@ -13,63 +16,104 @@ function GetService() {
           {texts['get-service'][lang]}
         </h2>
       </div>
+      <Form size="large" className="inputs-container">
+        <Form.Item
+          size="large"
+          label={texts['lastname'][lang]}
+          name={texts['lastname'][lang]}
+          rules={[{ required: true, message: 'Please input your lastname!' }]}
+          style={{
+            fontSize: '24px',
+            display: 'flex',
+            flexDirection: 'column',
+          }}
+        >
+          <Input style={{ fontSize: '20px' }} />
+        </Form.Item>
+        <Form.Item
+          label={texts['name'][lang]}
+          name={texts['name'][lang]}
+          rules={[{ required: true, message: 'Please input your name!' }]}
+          style={{
+            fontSize: '24px',
+            display: 'flex',
+            flexDirection: 'column',
+          }}
+        >
+          <Input style={{ fontSize: '20px' }} />
+        </Form.Item>
+        <Form.Item
+          label={texts['email'][lang]}
+          name={texts['email'][lang]}
+          rules={[{ required: true, message: 'Please input your email!' }]}
+          style={{
+            fontSize: '24px',
+            display: 'flex',
+            flexDirection: 'column',
+          }}
+        >
+          <Input style={{ fontSize: '20px' }} />
+        </Form.Item>
+        <Form.Item
+          label={texts['phone'][lang]}
+          name={texts['phone'][lang]}
+          rules={[{ required: true, message: 'Please input your phone!' }]}
+          style={{
+            fontSize: '24px',
+            display: 'flex',
+            flexDirection: 'column',
+          }}
+        >
+          <Input style={{ fontSize: '20px' }} />
+        </Form.Item>
+        <Form.Item
+          label={texts['city'][lang]}
+          name={texts['city'][lang]}
+          rules={[{ required: true, message: 'Please input your city!' }]}
+          style={{
+            fontSize: '24px',
+            display: 'flex',
+            flexDirection: 'column',
+          }}
+        >
+          <Input style={{ fontSize: '20px' }} />
+        </Form.Item>
+        <Form.Item
+          label={texts['service'][lang]}
+          style={{
+            fontSize: '24px',
+            display: 'flex',
+            flexDirection: 'column',
+            marginBottom: 50,
+          }}
+        >
+          <Select defaultValue={texts['choose-service'][lang]}>
+            <Option value={`${texts['service'][lang]} 1`}>
+              {texts['service'][lang]} 1
+            </Option>
+            <Option value={`${texts['service'][lang]} 2`}>
+              {texts['service'][lang]} 2
+            </Option>
+            <Option value={`${texts['service'][lang]} 3`}>
+              {texts['service'][lang]} 3
+            </Option>
+            <Option value={`${texts['service'][lang]} 4`}>
+              {texts['service'][lang]} 4
+            </Option>
+          </Select>
+        </Form.Item>
 
-      <div className="services-input-area">
-        {texts['lastname'][lang]}*
-        <input
-          required
-          className="services-input services-input-secondname"
-          type="text"
-        ></input>
-      </div>
+        <Button
+          type="primary"
+          htmlType="submit"
+          style={{ width: 200, height: 60, right: 0, position: 'absolute'}}
+        >
+          {texts['send'][lang]}
+        </Button>
+      </Form>
 
-      <div className="services-input-area">
-        {texts['name'][lang]}*
-        <input
-          required
-          className="services-input services-input-name"
-          type="text"
-        ></input>
-      </div>
-
-      <div className="services-input-area">
-        {texts['email'][lang]}*
-        <input
-          required
-          className="services-input services-input-email"
-          type="text"
-        ></input>
-      </div>
-
-      <div className="services-input-area">
-        {texts['phone'][lang]}
-        <input
-          className="services-input services-input-phone"
-          type="text"
-        ></input>
-      </div>
-
-      <div className="services-input-area">
-        {texts['city'][lang]}
-        <input
-          className="services-input services-input-city"
-          type="text"
-        ></input>
-      </div>
-
-      <div className="services-input-area">
-        {texts['service'][lang]}
-        <select className="services-input services-input-service">
-          <option>{texts['choose-service'][lang]}</option>
-          <option>{texts['service'][lang]} 1</option>
-          <option>{texts['service'][lang]} 2</option>
-          <option>{texts['service'][lang]} 3</option>
-          <option>{texts['service'][lang]} 4</option>
-        </select>
-      </div>
-
-      <div className="services-input-area">
-        <button
+      {/* <div className="services-input-area"> */}
+      {/* <button
           className="services-input services-input-send"
           onClick={(e) => {
             const inputs = document.querySelectorAll('.services-input');
@@ -79,8 +123,8 @@ function GetService() {
           }}
         >
           {texts['send'][lang]}
-        </button>
-      </div>
+        </button> */}
+      {/* </div> */}
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import 'antd/dist/antd.css';
 import Header from './components/Header';
 import { ModalAuth } from './components/Modal/ModalAuth';
 import React from 'react';

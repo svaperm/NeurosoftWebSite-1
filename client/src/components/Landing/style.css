@@ -4,24 +4,28 @@
 }
 .landing-hero {
   height: calc(85vh - 80px);
+  width: 90%;
+  margin: auto;
 }
 .landing-title {
   font-weight: 900;
   font-size: 72px;
   line-height: 114.19%;
-  background: -webkit-linear-gradient(#046cf3, #000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
 .landing-subtitle {
   display: block;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 151.19%;
-  text-transform: uppercase;
+  font-weight: 400;
   background: rgba(255, 255, 255, 0.86);
+}
+.hero-subtitle {
+  text-transform: uppercase;
+  font-weight: 500;
+  width: 50%;
 }
 .hero-world {
   background-image: url(../../../public/hero-world.svg);
@@ -36,12 +40,6 @@
 .landing-services-item {
   width: 250px;
   height: 250px;
-  background: radial-gradient(
-    56.2% 56.2% at 50% 50%,
-    #448ff2 0%,
-    rgba(68, 143, 242, 0.56) 37.5%,
-    rgba(255, 255, 255, 0) 100%
-  );
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,6 +78,13 @@
 }
 .service-img-4 {
   background-image: url(../../../public/networking.png);
+}
+.ant-card-head {
+  background-color: rgba(0, 0, 0, 0.034);
+  font-weight: bold;
+}
+.ant-card-head-title {
+  font-size: 32px !important;
 }
 @media (max-width: 1650px) {
   .hero-world {

@@ -1,7 +1,8 @@
 import './style.css';
-
+import { UserOutlined } from '@ant-design/icons';
 import DetectLanguage from '../../functions/detectLang';
 import texts from './texts.json';
+import Avatar from 'antd/lib/avatar/avatar';
 
 const lang = DetectLanguage();
 
@@ -16,17 +17,17 @@ export const About = () => (
       <h2 className="about-container-title">{texts['team'][lang]}</h2>
       <div className="about-workers">
         <div className="about-workers-item">
-          <div className="workers-img workers-img-1"></div>
+          <Avatar size={150} icon={<UserOutlined />} />
           <div className="workers-post">{texts['post1'][lang]}</div>
         </div>
 
         <div className="about-workers-item">
-          <div className="workers-img workers-img-2"></div>
+          <Avatar size={150} icon={<UserOutlined />} />
           <div className="workers-post">{texts['post2'][lang]}</div>
         </div>
 
         <div className="about-workers-item">
-          <div className="workers-img workers-img-3"></div>
+          <Avatar size={150} icon={<UserOutlined />} />
           <div className="workers-post">{texts['post3'][lang]}</div>
         </div>
       </div>
@@ -73,10 +74,6 @@ export const About = () => (
 
         <div className="about-companies-item">
           <div className="companies-img companies-img-10"></div>
-        </div>
-
-        <div className="about-companies-item">
-          <div className="companies-img companies-img-11"></div>
         </div>
       </div>
     </div>
