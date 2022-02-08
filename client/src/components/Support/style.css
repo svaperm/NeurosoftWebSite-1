@@ -13,9 +13,6 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 114.19%;
-  background: -webkit-linear-gradient(#046cf3, #000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
@@ -84,6 +81,10 @@
 }
 .support-send:active {
   background-color: #f1cb84;
+}
+
+.ant-form-item-label > label {
+  font-size: 18px;
 }
 
 @media (max-width: 1400px) {

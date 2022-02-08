@@ -1,99 +1,131 @@
 import '../style.css';
-
+import { UploadOutlined } from '@ant-design/icons';
 import texts from '../texts.json';
 import DetectLanguage from '../../../functions/detectLang';
+import { Button, Form, Input, Select } from 'antd';
+
+const Option = { Select };
 
 const lang = DetectLanguage();
 
 function RespondVacancy() {
   return (
-    <form className="vacancies-form-respond">
-      <div className="vacancies-container vacancies-form-container">
-        <div className="vacancies-container-text">
-          <h2 className="services-container-title vacancies-form-title">
-            {texts['respond'][lang]}
-          </h2>
-        </div>
-
-        <div className="vacancies-input-area">
-          {texts['lastname'][lang]} *
-          <input
-            required
-            className="services-input services-input-secondname"
-            type="text"
-          ></input>
-        </div>
-
-        <div className="vacancies-input-area">
-          {texts['name'][lang]} *
-          <input
-            required
-            className="services-input services-input-name"
-            type="text"
-          ></input>
-        </div>
-
-        <div className="vacancies-input-area">
-          Email *
-          <input
-            required
-            className="services-input services-input-email"
-            type="text"
-          ></input>
-        </div>
-
-        <div className="vacancies-input-area">
-          {texts['phone'][lang]}
-          <input
-            className="services-input services-input-phone"
-            type="text"
-          ></input>
-        </div>
-
-        <div className="vacancies-input-area">
-          {texts['city'][lang]}
-          <input
-            className="services-input services-input-city"
-            type="text"
-          ></input>
-        </div>
-
-        <div className="vacancies-input-area">
-          {texts['vacancy'][lang]} *
-          <select required className="services-input services-input-vacancy">
-            <option hidden selected>
-              {texts['choose-vac'][[lang]]}
-            </option>
-            <option>{texts['vacancy'][lang]} 1</option>
-            <option>{texts['vacancy'][lang]} 2</option>
-            <option>{texts['vacancy'][lang]} 3</option>
-          </select>
-        </div>
-
-        <div className="vacancies-input-area">
-          {texts['resume'][lang]} *
-          <input
-            required
-            className="services-input services-input-resume"
-            type="file"
-          ></input>
-        </div>
-
-        <div className="vacancies-input-area">
-          {texts['letter'][lang]}
-          <textarea className="vacancies-letter" rows="5"></textarea>
-        </div>
-
-        <button
-          className="vacancies-input vacancies-respond-btn"
-          onClick={(e) => {
-            document.querySelector('.vacancies-form-respond').reset();
+    <div className="vacancies-container vacancies-form-container">
+      <h2 className="services-container-title vacancies-form-title">
+        {texts['respond'][lang]}
+      </h2>
+      <Form size="large" className="inputs-container">
+        <Form.Item
+          size="large"
+          label={texts['lastname'][lang]}
+          name={texts['lastname'][lang]}
+          rules={[{ required: true, message: 'Please input your lastname!' }]}
+          style={{
+            fontSize: '24px',
+            display: 'flex',
+            flexDirection: 'column',
           }}
         >
+          <Input style={{ fontSize: '20px' }} />
+        </Form.Item>
+        <Form.Item
+          label={texts['name'][lang]}
+          name={texts['name'][lang]}
+          rules={[{ required: true, message: 'Please input your name!' }]}
+          style={{
+            fontSize: '24px',
+            display: 'flex',
+            flexDirection: 'column',
+          }}
+        >
+          <Input style={{ fontSize: '20px' }} />
+        </Form.Item>
+        <Form.Item
+          label={texts['email'][lang]}
+          name={texts['email'][lang]}
+          rules={[{ required: true, message: 'Please input your email!' }]}
+          style={{
+            fontSize: '24px',
+            display: 'flex',
+            flexDirection: 'column',
+          }}
+        >
+          <Input style={{ fontSize: '20px' }} />
+        </Form.Item>
+        <Form.Item
+          label={texts['phone'][lang]}
+          name={texts['phone'][lang]}
+          rules={[{ required: true, message: 'Please input your phone!' }]}
+          style={{
+            fontSize: '24px',
+            display: 'flex',
+            flexDirection: 'column',
+          }}
+        >
+          <Input style={{ fontSize: '20px' }} />
+        </Form.Item>
+        <Form.Item
+          label={texts['city'][lang]}
+          name={texts['city'][lang]}
+          rules={[{ required: true, message: 'Please input your city!' }]}
+          style={{
+            fontSize: '24px',
+            display: 'flex',
+            flexDirection: 'column',
+          }}
+        >
+          <Input style={{ fontSize: '20px' }} />
+        </Form.Item>
+        <Form.Item
+          label={texts['vacancy'][lang]}
+          style={{
+            fontSize: '24px',
+            display: 'flex',
+            flexDirection: 'column',
+            marginBottom: 50,
+          }}
+        >
+          <Select defaultValue={texts['choose-vac'][[lang]]}>
+            <Option value={`${texts['vacancy'][lang]} 1`}>
+              {texts['vacancy'][lang]} 1
+            </Option>
+            <Option value={`${texts['vacancy'][lang]} 2`}>
+              {texts['vacancy'][lang]} 2
+            </Option>
+            <Option value={`${texts['vacancy'][lang]} 3`}>
+              {texts['vacancy'][lang]} 3
+            </Option>
+            <Option value={`${texts['vacancy'][lang]} 4`}>
+              {texts['vacancy'][lang]} 4
+            </Option>
+          </Select>
+        </Form.Item>
+        <Form.Item
+          label={texts['resume'][lang]}
+          style={{
+            fontSize: '24px',
+            display: 'flex',
+            flexDirection: 'column',
+            marginBottom: 50,
+          }}
+        >
+          <Button icon={<UploadOutlined />}>Click to Upload</Button>
+        </Form.Item>
+        <Form.Item
+          label={texts['letter'][lang]}
+          style={{ display: 'flex', flexDirection: 'column' }}
+        >
+          <Input.TextArea />
+        </Form.Item>
+        <Button
+          type="primary"
+          htmlType="submit"
+          style={{ width: 200, height: 60, right: 0, position: 'absolute' }}
+        >
           {texts['respond'][lang]}
-        </button>
-      </div>
-    </form>
+        </Button>
+      </Form>
+    </div>
   );
 }
 

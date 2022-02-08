@@ -1,62 +1,76 @@
 import '../style.css';
-
+import { Form, Input, Button, Select } from 'antd';
 import texts from '../texts.json';
 import DetectLanguage from '../../../functions/detectLang';
+
+const { Option } = Select;
 
 const lang = DetectLanguage();
 
 function FindVacancy() {
   return (
-    <form className="vacancies-form">
-      <div className="vacancies-container">
-        <div className="vacancies-container-text">
-          <h2 className="services-container-title">
-            {texts['find-job'][lang]}
-          </h2>
-        </div>
+    <div className="vacancies-container">
+      <h2 className="services-container-title">{texts['find-job'][lang]}</h2>
 
-        <div className="vacancies-input-area">
-          {texts['keywords'][lang]} *
-          <input
-            required
-            className="services-input services-input-secondname"
-            type="text"
-          ></input>
-        </div>
-
-        <div className="vacancies-input-area">
-          {texts['profession'][lang]} *
-          <input
-            required
-            className="services-input services-input-name"
-            type="text"
-          ></input>
-        </div>
-
-        <div className="vacancies-input-area">
-          {texts['experience'][lang]} *
-          <select className="services-input services-input-exp">
-            <option disabled selected>
-              {texts['choose-exp'][[lang]]}
-            </option>
-            <option>0</option>
-            <option>1-3</option>
-            <option>{'>'}3</option>
-          </select>
-        </div>
-
-        <div className="vacancies-input-button-area">
-          <button
-            className="vacancies-input vacancies-input-find"
-            onClick={(e) => {
-              document.querySelector('.vacancies-form').reset();
+      <Form>
+        <Form.Item
+          size="large"
+          label={texts['keywords'][lang]}
+          rules={[{ required: true, message: 'Please input keywords!' }]}
+          style={{
+            fontSize: '24px',
+            display: 'flex',
+            flexDirection: 'column',
+          }}
+        >
+          <Input style={{ fontSize: '20px' }} />
+        </Form.Item>
+        <Form.Item
+          label={texts['profession'][lang]}
+          style={{ display: 'flex', flexDirection: 'column' }}
+          rules={[{ required: true, message: 'Please input profession!' }]}
+        >
+          <Input style={{ fontSize: '20px' }} />
+        </Form.Item>
+        <Form.Item
+          label={texts['experience'][lang]}
+          style={{
+            fontSize: '24px',
+            display: 'flex',
+            flexDirection: 'column',
+            marginBottom: 50,
+          }}
+        >
+          <Select
+            defaultValue={texts['choose-exp'][[lang]]}
+            style={{ fontSize: '20px' }}
+          >
+            <Option value="0" style={{ fontSize: '20px' }}>
+              0
+            </Option>
+            <Option value="1-3" style={{ fontSize: '20px' }}>
+              1-3
+            </Option>
+            <Option value="> 3" style={{ fontSize: '20px' }}>{`> 3`}</Option>
+          </Select>
+        </Form.Item>
+        <Form.Item style={{ position: 'relative' }}>
+          <Button
+            type="primary"
+            htmlType="submit"
+            style={{
+              width: 200,
+              height: 50,
+              fontSize: '16px',
+              position: 'absolute',
+              right: 0,
             }}
           >
             {texts['find'][lang]}
-          </button>
-        </div>
-      </div>
-    </form>
+          </Button>
+        </Form.Item>
+      </Form>
+    </div>
   );
 }
 
