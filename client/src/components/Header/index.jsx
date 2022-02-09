@@ -1,7 +1,5 @@
 import Nav from './components/Nav';
-import { useNavigate } from 'react-router-dom';
 import './style.css';
-
 import ChangeLanguage from '../../functions/changeLang';
 import texts from './texts.json';
 import DetectLanguage from '../../functions/detectLang';
@@ -9,13 +7,14 @@ import InnerNav from './components/InnerNav';
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { StoreContext } from '../../context/StoreContext';
+import { Button, Select } from 'antd';
+const { Option } = Select;
 
 const lang = DetectLanguage();
 
 const Header = () => {
   const { authorized, changeModalAuthState, changeModalExitState } =
     useContext(StoreContext) || {};
-  // const navigate = useNavigate();
   return (
     <div className="header">
       <div className="logo"></div>
@@ -31,34 +30,29 @@ const Header = () => {
           <ul className="header-nav">{authorized ? <InnerNav /> : <Nav />}</ul>
         </nav>
         <div className="header-btns">
-          <button
+          <Button
+            type="primary"
             className="header-btn"
             onClick={() => {
               if (authorized) {
                 changeModalExitState();
-                // navigate.push('/');
               } else {
                 changeModalAuthState();
               }
             }}
           >
-            <div className="btn-icon-sign-in"></div>
-            <span className="btn-text">
-              {!authorized ? texts['sign-in'][lang] : texts['sign-out'][lang]}
-            </span>
-          </button>
-          <button className="header-btn">
-            <div className="btn-icon-lang"></div>
-            <select
-              className="lang-select"
-              onChange={ChangeLanguage}
-              value={window.sessionStorage.getItem('lang')}
-            >
-              <option value="ru">RU</option>
-              <option value="en">EN</option>
-              <option value="de">DE</option>
-            </select>
-          </button>
+            {!authorized ? texts['sign-in'][lang] : texts['sign-out'][lang]}
+          </Button>
+
+          <Select
+            style={{ width: 120 }}
+            onChange={ChangeLanguage}
+            defaultValue={window.sessionStorage.getItem('lang')}
+          >
+            <Option value="ru">RU</Option>
+            <Option value="en">EN</Option>
+            <Option value="de">DE</Option>
+          </Select>
 
           {authorized ? (
             <Link

@@ -2,6 +2,12 @@ import { useContext } from 'react';
 import { StoreContext } from '../../context/StoreContext';
 import InnerNav from '../Header/components/InnerNav';
 import Nav from '../Header/components/Nav';
+import {
+  FacebookOutlined,
+  TwitterOutlined,
+  InstagramOutlined,
+  YoutubeOutlined,
+} from '@ant-design/icons';
 
 export const Footer = () => {
   const { authorized } = useContext(StoreContext) || {};
@@ -12,9 +18,16 @@ export const Footer = () => {
         <ul>{authorized ? <InnerNav /> : <Nav />}</ul>
       </nav>
       <ul className="social-nav">
-        {['instagram', 'facebook', 'telegram', 'vk'].map((value) => (
+        {[
+          <FacebookOutlined />,
+          <TwitterOutlined />,
+          <InstagramOutlined />,
+          <YoutubeOutlined />,
+        ].map((value) => (
           <li>
-            <a href="#" className={`social-item ${value}`}></a>
+            <a href="#" className={`social-item`}>
+              {value}
+            </a>
           </li>
         ))}
       </ul>

@@ -56,6 +56,7 @@
 }
 .modal-btn:hover {
   background-color: #7d92d8;
+  color: #fff;
 }
 .modal-btn:active {
   background-color: #1e2641;
@@ -80,4 +81,7 @@
 }
 .hidden {
   display: none;
+}
+.ant-form-item-label > label {
+  width: 100px;
 }

@@ -1,41 +1,44 @@
-import Event from './Event'
-
-import texts from '../texts.json'
+import texts from '../texts.json';
 import DetectLanguage from '../../../../functions/detectLang';
+import { Avatar, Card, List } from 'antd';
+import { UserOutlined } from '@ant-design/icons';
 
 const lang = DetectLanguage();
 
-function Events(props){
-    return(
-        <div className='innerMain-container'>
-          <div className='innerMain-container-title'>
-            {texts['events'][lang]}
-          </div>
+const data = [
+  {
+    title: 'Ant Design Title 1',
+  },
+  {
+    title: 'Ant Design Title 2',
+  },
+  {
+    title: 'Ant Design Title 3',
+  },
+  {
+    title: 'Ant Design Title 4',
+  },
+];
 
-          <div className='events-container'>
-            <div className='events-conainer-title'>
-              {texts['current-week'][lang]}
-            </div>
-
-            <Event date='1.3.2022' description={texts['event-description-1'][lang]}/>
-            <Event date='1.3.2022' description={texts['event-description-2'][lang]}/>
-            <Event date='1.3.2022' description={texts['event-description-3'][lang]}/>
-          </div>
-
-          <div className='line'></div>
-
-          <div className='events-container'>
-            <div className='events-conainer-title'>
-              {texts['soon'][lang]}
-            </div>
-
-            <Event date='1.3.2022' description={texts['event-description-4'][lang]}/>
-            <Event date='1.3.2022' description={texts['event-description-5'][lang]}/>
-            <Event date='1.3.2022' description={texts['event-description-6'][lang]}/>
-          </div>
-        </div>
-    )
+function Events(props) {
+  return (
+    <Card title={texts['events'][lang]}>
+      <List
+        style={{ padding: '30px 50px' }}
+        itemLayout="horizontal"
+        dataSource={data}
+        renderItem={(item) => (
+          <List.Item>
+            <List.Item.Meta
+              avatar={<Avatar icon={<UserOutlined />} size={64} />}
+              title={<a href="https://ant.design">{item.title}</a>}
+              description="Ant Design, a design language for background applications, is refined by Ant UED Team"
+            />
+          </List.Item>
+        )}
+      />
+    </Card>
+  );
 }
 
 export default Events;
-

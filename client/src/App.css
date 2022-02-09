@@ -48,19 +48,11 @@ ul {
   height: 35px;
   background-size: contain;
 }
-.instagram {
-  background-image: url(../public/inst.png);
-}
-.facebook {
-  background-image: url(../public/fb.png);
-}
-.telegram {
-  background-image: url(../public/tg.png);
-}
-.vk {
-  background-image: url(../public/vk.png);
-}
 
+.footer .anticon svg {
+  width: 30px;
+  height: 30px;
+}
 @media (max-width: 900px) {
   .footer-nav ul {
     padding: 0;

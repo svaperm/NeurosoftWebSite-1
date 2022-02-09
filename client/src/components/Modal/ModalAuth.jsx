@@ -5,6 +5,8 @@ import './style.css';
 
 import DetectLanguage from '../../functions/detectLang';
 import texts from './texts.json';
+import { Button, Input, Form } from 'antd';
+import Checkbox from 'antd/lib/checkbox/Checkbox';
 
 const lang = DetectLanguage();
 
@@ -20,11 +22,40 @@ export const ModalAuth = () => {
             changeModalAuthState();
           }}
         ></div>
+
         <h2 className="modal-title">{texts['log-in-sys'][lang]}</h2>
-        <span className="modal-text">{texts['login'][lang]}</span>
-        <input type="text" className="modal-input" />
-        <span className="modal-text">{texts['password'][lang]}</span>
-        <input type="password" className="modal-input" />
+        <Form name="basic" autoComplete="off">
+          <Form.Item
+            label={texts['login'][lang]}
+            name={texts['login'][lang]}
+            rules={[{ required: true, message: 'Please input your username!' }]}
+          >
+            <Input />
+          </Form.Item>
+
+          <Form.Item
+            label={texts['password'][lang]}
+            name={texts['password'][lang]}
+            rules={[{ required: true, message: 'Please input your password!' }]}
+          >
+            <Input.Password />
+          </Form.Item>
+
+          <Form.Item
+            name="remember"
+            valuePropName="checked"
+            wrapperCol={{ offset: 8, span: 16 }}
+          >
+            <Checkbox>Remember me</Checkbox>
+          </Form.Item>
+
+          {/* <Form.Item wrapperCol={{ offset: 8, span: 16 }}>
+            <Button type="primary" htmlType="submit">
+              {texts['sign-in'][lang]}
+            </Button>
+          </Form.Item> */}
+        </Form>
+
         <NavLink
           className="modal-btn"
           to="/innerMain"

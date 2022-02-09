@@ -121,6 +121,10 @@
 .close-burger {
   background-image: url(../../../public/close.png);
 }
+.ant-select-selector {
+  height: 50px !important;
+  align-items: center;
+}
 @media (max-width: 1750px) {
   .nav-link::after,
   .last-link::after {

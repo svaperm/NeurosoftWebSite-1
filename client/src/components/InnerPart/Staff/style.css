@@ -16,6 +16,7 @@
   border-radius: 5px;
   margin: 1%;
   padding: 1%;
+  margin-right: 5%;
 }
 
 .staff-search-container {
@@ -111,6 +112,7 @@
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
+  margin-top: 20px;
 }
 
 .contact-info-container {
@@ -160,4 +162,28 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+.staff-search-container {
+  display: block;
+  width: 30%;
+}
+.staff-container .ant-list-item-meta-title {
+  font-size: 18px;
+}
+.staff-container  {
+  padding-bottom: 60px;
+}
+.personal-info .ant-card {
+  width: 60%;
+}
+.personal-info .ant-card-body {
+  font-size: 18px;
+}
+.my-projects {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: space-around;
+}
+.project-img {
+  width: 120px;
 }

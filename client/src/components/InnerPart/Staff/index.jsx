@@ -3,47 +3,62 @@ import StaffSearch from './components/StaffSearch';
 
 import texts from './texts.json';
 import DetectLanguage from '../../../functions/detectLang';
-
+import { Card } from 'antd';
+import { List } from 'antd/lib/form/Form';
+import Avatar from 'antd/lib/avatar/avatar';
+import { UserOutlined } from '@ant-design/icons';
 const lang = DetectLanguage();
+
+const data = [
+  {
+    title: 'Ant Design Title 1',
+  },
+  {
+    title: 'Ant Design Title 2',
+  },
+  {
+    title: 'Ant Design Title 3',
+  },
+  {
+    title: 'Ant Design Title 4',
+  },
+];
 
 export const Staff = () => (
   <div className="staff">
     <StaffSearch />
 
     <div className="personal-info">
-      <div className="staff-container contact-info-container">
-        <div className="staff-container-title">
-          {texts['contact-info'][lang]}
-        </div>
+      <Card title={texts['contact-info'][lang]} bordered={false}>
+        <p>{texts['name'][lang] + ': Геннадий'}</p>
+        <p>{texts['lastname'][lang] + ': Вахрушев'}</p>
+        <p>{texts['contact-email'][lang] + ': gennadiy@gmail.com'}</p>
+        <p>{texts['phone'][lang] + ': +7 777 777 77 77'}</p>
+      </Card>
 
-        <div className="personal-info-text">
-          <span>{texts['name'][lang] + ': Геннадий'}</span>
-          <span>{texts['lastname'][lang] + ': Вахрушев'}</span>
-          <span>{texts['contact-email'][lang] + ': gennadiy@gmail.com'}</span>
-          <span>{texts['phone'][lang] + ': +7 777 777 77 77'}</span>
-        </div>
-      </div>
+      <Avatar size={150} icon={<UserOutlined />} style={{ margin: 'auto' }} />
 
-      <div className="personal-photo"></div>
-
-      <div className="staff-container about-me-container">
-        <div className="staff-container-title">{texts['about-me'][lang]}</div>
-
-        <div className="about-me-text">
+      <Card
+        title={texts['about-me'][lang]}
+        bordered={false}
+        style={{ width: '85%', marginTop: 100 }}
+      >
+        <p>
           Текст обо мне Текст обо мне Текст обо мне Текст обо мне Текст обо мне
-          Текст обо мне Текст обо мне Текст обо мне Текст обо мне Текст обо мне
-        </div>
-      </div>
+        </p>
+      </Card>
 
-      <div className="staff-container my-projects-container">
-        <div className="staff-container-title">{texts['projects'][lang]}</div>
-
+      <Card
+        title={texts['projects'][lang]}
+        bordered={false}
+        style={{ width: '85%', marginTop: 100 }}
+      >
         <div className="my-projects">
           <div className="project-img project-img-1"></div>
           <div className="project-img project-img-2"></div>
           <div className="project-img project-img-3"></div>
         </div>
-      </div>
+      </Card>
     </div>
   </div>
 );

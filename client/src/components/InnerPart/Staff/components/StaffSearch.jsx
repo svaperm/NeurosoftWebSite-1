@@ -1,29 +1,78 @@
-import Worker from './Worker'
-
-import texts from '../texts.json'
+import Worker from './Worker';
+import texts from '../texts.json';
 import DetectLanguage from '../../../../functions/detectLang';
+import { Card, Avatar, List, Input } from 'antd';
+import { UserOutlined } from '@ant-design/icons';
+
+const { Search } = Input;
 
 const lang = DetectLanguage();
 
-function StaffSearch(props){
-    return(
-        <div className='staff-container staff-search-container'>
-            <div className='search-input'>
-                <input className='search-text' type='text' placeholder={texts['find-staff'][lang]}></input>
-                <button className='search-btn'></button>
-            </div>
+function StaffSearch(props) {
+  return (
+    <div className="staff-container staff-search-container">
+      <Search placeholder={texts['find-staff'][lang]} style={{ width: "100%", height: 50 }} />
 
-            <div className='workers'>
-                <Worker img_num='1' name={texts['worker-name-1'][lang]} post={texts['worker-post-1'][lang]}/>
-                <Worker img_num='2' name={texts['worker-name-2'][lang]} post={texts['worker-post-2'][lang]}/>
-                <Worker img_num='2' name={texts['worker-name-2'][lang]} post={texts['worker-post-2'][lang]}/>
-                <Worker img_num='2' name={texts['worker-name-2'][lang]} post={texts['worker-post-2'][lang]}/>
-                <Worker img_num='2' name={texts['worker-name-2'][lang]} post={texts['worker-post-2'][lang]}/>
-                <Worker img_num='2' name={texts['worker-name-2'][lang]} post={texts['worker-post-2'][lang]}/>
-                <Worker img_num='3' name={texts['worker-name-3'][lang]} post={texts['worker-post-3'][lang]}/>
-            </div>
-        </div>
-    )
+      <Card>
+        <List
+        style={{height: 500, overflowY: "scroll"}}
+          itemLayout="horizontal"
+          dataSource={['1', '2', '2', '2', '2', '3']}
+          renderItem={(item) => (
+            <List.Item>
+              <List.Item.Meta
+                avatar={<Avatar icon={<UserOutlined />} size={40} />}
+                title={
+                  <a href="https://ant.design">
+                    {texts[`worker-name-${item}`][lang]}
+                  </a>
+                }
+                description={texts[`worker-post-${item}`][lang]}
+              />
+            </List.Item>
+          )}
+        />
+      </Card>
+
+      {/* <div className="workers">
+        <Worker
+          img_num="1"
+          name={texts['worker-name-1'][lang]}
+          post={texts['worker-post-1'][lang]}
+        />
+        <Worker
+          img_num="2"
+          name={texts['worker-name-2'][lang]}
+          post={texts['worker-post-2'][lang]}
+        />
+        <Worker
+          img_num="2"
+          name={texts['worker-name-2'][lang]}
+          post={texts['worker-post-2'][lang]}
+        />
+        <Worker
+          img_num="2"
+          name={texts['worker-name-2'][lang]}
+          post={texts['worker-post-2'][lang]}
+        />
+        <Worker
+          img_num="2"
+          name={texts['worker-name-2'][lang]}
+          post={texts['worker-post-2'][lang]}
+        />
+        <Worker
+          img_num="2"
+          name={texts['worker-name-2'][lang]}
+          post={texts['worker-post-2'][lang]}
+        />
+        <Worker
+          img_num="3"
+          name={texts['worker-name-3'][lang]}
+          post={texts['worker-post-3'][lang]}
+        />
+      </div> */}
+    </div>
+  );
 }
 
 export default StaffSearch;
