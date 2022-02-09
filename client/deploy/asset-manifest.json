@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/NeurosoftWebSite/client/deploy/static/css/main.0963a676.css",
+    "main.js": "/NeurosoftWebSite/client/deploy/static/js/main.9ca83602.js",
+    "static/js/787.e234a9f2.chunk.js": "/NeurosoftWebSite/client/deploy/static/js/787.e234a9f2.chunk.js",
+    "static/media/6-Roskazna.png": "/NeurosoftWebSite/client/deploy/static/media/6-Roskazna.6eb500dbcf3c046d70dc.png",
+    "static/media/4-Minfin.png": "/NeurosoftWebSite/client/deploy/static/media/4-Minfin.a875f87d70d58a4bba31.png",
+    "static/media/11-Ribolovstvo.png": "/NeurosoftWebSite/client/deploy/static/media/11-Ribolovstvo.c7d34f00dd9204703c14.png",
+    "static/media/10-Procuratura.png": "/NeurosoftWebSite/client/deploy/static/media/10-Procuratura.99d3dcf5facf194c25a2.png",
+    "static/media/Gena.jpg": "/NeurosoftWebSite/client/deploy/static/media/Gena.17e793b45c4a00e9595d.jpg",
+    "static/media/9-MVD.png": "/NeurosoftWebSite/client/deploy/static/media/9-MVD.a194c3bdde2b547325d4.png",
+    "static/media/7-dom-rf.png": "/NeurosoftWebSite/client/deploy/static/media/7-dom-rf.2c59ee8bfb29ec9ce02d.png",
+    "static/media/networking.png": "/NeurosoftWebSite/client/deploy/static/media/networking.8bafce98d85ea76f9b3c.png",
+    "static/media/project-management.png": "/NeurosoftWebSite/client/deploy/static/media/project-management.9926afda780608f91457.png",
+    "static/media/5-VTB.png": "/NeurosoftWebSite/client/deploy/static/media/5-VTB.b528efb89375a2e55730.png",
+    "static/media/logo.png": "/NeurosoftWebSite/client/deploy/static/media/logo.43b243d14e60ad2540f4.png",
+    "static/media/1-DIT_Moscow.png": "/NeurosoftWebSite/client/deploy/static/media/1-DIT_Moscow.e21af59a2c4f21a5f428.png",
+    "static/media/service-img.png": "/NeurosoftWebSite/client/deploy/static/media/service-img.820e899288b540932754.png",
+    "static/media/hero-world.svg": "/NeurosoftWebSite/client/deploy/static/media/hero-world.ef8670871330982603e2.svg",
+    "static/media/technology.png": "/NeurosoftWebSite/client/deploy/static/media/technology.3337842c7df045ff2223.png",
+    "static/media/8-Uralsvyazinform.png": "/NeurosoftWebSite/client/deploy/static/media/8-Uralsvyazinform.00785abcc9d0f28196bf.png",
+    "static/media/Tompson.jpg": "/NeurosoftWebSite/client/deploy/static/media/Tompson.a8a327c680e7a256db5b.jpg",
+    "static/media/3-sberbank.png": "/NeurosoftWebSite/client/deploy/static/media/3-sberbank.0cf565e36ec854826a06.png",
+    "static/media/2-MVF.png": "/NeurosoftWebSite/client/deploy/static/media/2-MVF.498f0e77d6bc31585533.png",
+    "static/media/book-icon.png": "/NeurosoftWebSite/client/deploy/static/media/book-icon.fb588a372af1b8353781.png",
+    "static/media/augmented_reality_target_cube_d_icon_134247.png": "/NeurosoftWebSite/client/deploy/static/media/augmented_reality_target_cube_d_icon_134247.a08458da60fe66bd995f.png",
+    "static/media/Neo.jpg": "/NeurosoftWebSite/client/deploy/static/media/Neo.03b9ead17dc1a7b04712.jpg",
+    "index.html": "/NeurosoftWebSite/client/deploy/index.html",
+    "main.0963a676.css.map": "/NeurosoftWebSite/client/deploy/static/css/main.0963a676.css.map",
+    "main.9ca83602.js.map": "/NeurosoftWebSite/client/deploy/static/js/main.9ca83602.js.map",
+    "787.e234a9f2.chunk.js.map": "/NeurosoftWebSite/client/deploy/static/js/787.e234a9f2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0963a676.css",
+    "static/js/main.9ca83602.js"
+  ]
+}
