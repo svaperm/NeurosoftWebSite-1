@@ -6,15 +6,15 @@
     },
 
     "subtitle":{
-        "ru": "Наша команда имеет большой опыт разработки программных продуктов для российских и зарубежных компаний. Мы разрабатываем высокотехнологичные программные продукты используя различные языки программирования и технологии разработки. В нашей команде работают высококвалифицированные сотрудники с 10-20-летним опытом работы в IT сфере.",
-        "en": "Our team has extensive experience in developing software products for Russian and foreign companies. We develop high-tech software products using various programming languages and development technologies.Our team consists of highly qualified employees with 10-20 years of experience in the IT field.",
-        "de": "Unser Team verfügt über umfangreiche Erfahrung in der Entwicklung von Softwareprodukten für russische und ausländische Unternehmen. Wir entwickeln High-Tech-Softwareprodukte mit verschiedenen Programmiersprachen und Entwicklungstechnologien.Unser Team beschäftigt hochqualifizierte Mitarbeiter mit 10-20 Jahren Erfahrung im IT-Bereich."
+      "ru": "ООО «Нейрософт Глобал» предлагает вам свой опыт и сотрудничество в разработке приложений в микросервисной архитектуре для  цифровых платформ и промышленных решений в области искусственного интеллекта и нейронных сетей.",
+      "en": "Neurosoft Global LLC offers you its experience and cooperation in the development of applications in microservice architecture for digital platforms and industrial solutions in the field of artificial intelligence and neural networks.",
+      "de": "Neurosoft Global LLC bietet Ihnen seine Erfahrung und Zusammenarbeit bei der Entwicklung von Anwendungen in Microservice-Architektur für digitale Plattformen und Industrielösungen im Bereich der künstlichen Intelligenz und neuronalen Netze an."
     },
     
     "vacancy-title-1":{
-        "ru": "Вакансия 1",
-        "en": "vacancy 1",
-        "de": "freie Stelle 1"
+        "ru": " Разработчик C#",
+        "en": "C# Developer",
+        "de": "C#-Entwickler"
     },
     
     "vacancy-description-1":{
@@ -24,9 +24,9 @@
     },
     
     "vacancy-title-2":{
-        "ru": "Вакансия 2",
-        "en": "vacancy 2",
-        "de": "freie Stelle 2"
+        "ru": "Разработчик Python",
+        "en": "Python Developer",
+        "de": "Python-Entwickler"
     },
     
     "vacancy-description-2":{

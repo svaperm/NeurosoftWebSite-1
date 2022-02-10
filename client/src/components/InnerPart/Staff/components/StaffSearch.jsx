@@ -33,44 +33,6 @@ function StaffSearch(props) {
           )}
         />
       </Card>
-
-      {/* <div className="workers">
-        <Worker
-          img_num="1"
-          name={texts['worker-name-1'][lang]}
-          post={texts['worker-post-1'][lang]}
-        />
-        <Worker
-          img_num="2"
-          name={texts['worker-name-2'][lang]}
-          post={texts['worker-post-2'][lang]}
-        />
-        <Worker
-          img_num="2"
-          name={texts['worker-name-2'][lang]}
-          post={texts['worker-post-2'][lang]}
-        />
-        <Worker
-          img_num="2"
-          name={texts['worker-name-2'][lang]}
-          post={texts['worker-post-2'][lang]}
-        />
-        <Worker
-          img_num="2"
-          name={texts['worker-name-2'][lang]}
-          post={texts['worker-post-2'][lang]}
-        />
-        <Worker
-          img_num="2"
-          name={texts['worker-name-2'][lang]}
-          post={texts['worker-post-2'][lang]}
-        />
-        <Worker
-          img_num="3"
-          name={texts['worker-name-3'][lang]}
-          post={texts['worker-post-3'][lang]}
-        />
-      </div> */}
     </div>
   );
 }

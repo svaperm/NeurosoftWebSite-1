@@ -6,27 +6,27 @@
     },
 
     "solution-title-1":{
-        "ru": "Название проекта/решения1",
-        "en": "Project/solution name1",
-        "de": "Projekt-/Lösungsname1"
+        "ru": "Самоадаптируемая к пространству и времени система оценки и прогнозирования стоимости квартир городов РФ",
+        "en": "Self-adaptive to space and time system for estimating and predicting the cost of apartments in cities of the Russian Federation",
+        "de": "Selbstadaptives Raum- und Zeitsystem zur Schätzung und Vorhersage der Kosten von Wohnungen in Städten der Russischen Föderation"
     },
 
     "solution-subtitle-1":{
-        "ru": "Систем сбора и обработки данных, системы принятия решений, ситуационных центров, личных кабинетов руководителей, платежных систем, фрон и бэк оффисных систем, системы обработки данных с использованием нейросетей, банковских систем",
+        "ru": "Система оценки недвижимости городов России, применимой к любым регионам РФ, причем независимо от постоянно меняющейся во времени экономической ситуации в мире, стране и регионе.",
         "en": "Data collection and processing systems, decision-making systems, situation centers, personal offices of managers, payment systems, front and back office systems, data processing systems using neural networks, banking systems",
-        "de": "Datenerfassungs- und -verarbeitungssysteme, Entscheidungsfindungssysteme, Lagezentren, persönliche Büros von Managern, Zahlungssysteme, Front- und Backoffice-Systeme, Datenverarbeitungssysteme mit neuronalen Netzen, Banksysteme"
+        "de": "Immobilienbewertungssystem in russischen Städten, das auf alle Regionen der Russischen Föderation anwendbar ist, unabhängig von der sich ständig ändernden wirtschaftlichen Situation in der Welt, im Land und in der Region"
     },
 
     "solution-title-2":{
-        "ru": "Название проекта/решения2",
-        "en": "Project/solution name2",
-        "de": "Projekt-/Lösungsname2"
+        "ru": "Интеллектуальная система диагностики и прогнозирования развития сердечно-сосудистых заболеваний и оптимизации их профилактики и лечения",
+        "en": "Intelligent system for diagnosing and predicting the development of cardiovascular diseases and optimizing their prevention and treatment",
+        "de": "Intelligentes System zur Diagnose und Vorhersage der Entwicklung von Herz-Kreislauf-Erkrankungen und zur Optimierung ihrer Prävention und Behandlung"
     },
 
     "solution-subtitle-2":{
-        "ru": "Систем сбора и обработки данных, системы принятия решений, ситуационных центров, личных кабинетов руководителей, платежных систем, фрон и бэк оффисных систем, системы обработки данных с использованием нейросетей, банковских систем",
-        "en": "Data collection and processing systems, decision-making systems, situation centers, personal offices of managers, payment systems, front and back office systems, data processing systems using neural networks, banking systems",
-        "de": "Datenerfassungs- und -verarbeitungssysteme, Entscheidungsfindungssysteme, Lagezentren, persönliche Büros von Managern, Zahlungssysteme, Front- und Backoffice-Systeme, Datenverarbeitungssysteme mit neuronalen Netzen, Banksysteme"
+        "ru": "Продукт плотного сотрудничества с врачами в течение 15-ти лет, команде удалось понять суть существующих проблем, преодолеть «подводные камни», препятствующие созданию эффективных диагностических систем и создать нейро-экспертную систему, способную не только с высокой степенью точности  ставить диагнозы наиболее распространенных заболеваний ССС, но и прогнозировать их появление и развитие на много лет вперед, а также оптимизировать образ жизни и курсы приема пациентами некоторых лекарственных препаратов.",
+        "en": "The product of close cooperation with doctors for 15 years, the team managed to understand the essence of existing problems, overcome the 'pitfalls' that hinder the creation of effective diagnostic systems and create a neuro-expert system capable of not only diagnosing the most common CVD diseases with a high degree of accuracy , but also to predict their appearance and development for many years to come, as well as to optimize the lifestyle and courses of taking certain medications by patients.",
+        "de": "Als Ergebnis einer 15-jährigen engen Zusammenarbeit mit Ärzten gelang es dem Team, die Essenz bestehender Probleme zu verstehen, die 'Fallstricke' zu überwinden, die die Entwicklung effektiver Diagnosesysteme behindern, und ein Neuro-Expertensystem zu schaffen, das nicht nur die häufigsten diagnostizieren kann Herz-Kreislauf-Erkrankungen mit hoher Treffsicherheit, aber auch zur Vorhersage ihres Auftretens und ihrer Entwicklung für viele Jahre sowie zur Optimierung des Lebensstils und der Einnahme bestimmter Medikamente von Patienten."
     },
 
     "solution-title-3":{

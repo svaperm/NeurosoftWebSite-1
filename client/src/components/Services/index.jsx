@@ -38,7 +38,7 @@ export const Services = () => (
     >
       <p>{texts['service-description-2'][lang]}</p>
     </Card>
-    <Card
+    {/* <Card
       title={texts['service-title-3'][lang]}
       extra={<a href="#">More</a>}
       style={{
@@ -61,32 +61,7 @@ export const Services = () => (
       }}
     >
       <p>{texts['service-description-4'][lang]}</p>
-    </Card>
-    {/* 
-    <Service
-      title={texts['service-title-1'][lang]}
-      description={texts['service-description-1'][lang]}
-      img_num="1"
-    />
-
-    <Service
-      title={texts['service-title-2'][lang]}
-      description={texts['service-description-2'][lang]}
-      img_num="2"
-    />
-
-    <Service
-      title={texts['service-title-3'][lang]}
-      description={texts['service-description-3'][lang]}
-      img_num="3"
-    />
-
-    <Service
-      title={texts['service-title-4'][lang]}
-      description={texts['service-description-4'][lang]}
-      img_num="4"
-    /> */}
-
+    </Card> */}
     <GetService />
   </div>
 );

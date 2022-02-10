@@ -12,9 +12,9 @@
     },
     
     "service-title-1":{
-        "ru": "Название услуги 1",
-        "en": "Service name 1",
-        "de": "Dienstname 1"
+        "ru": "Транзакционные системы",
+        "en": "Transaction systems",
+        "de": "Transaktionssysteme"
     },
     
     "service-description-1":{
@@ -24,9 +24,9 @@
     },
     
     "service-title-2":{
-        "ru": "Название услуги 2",
-        "en": "Service name 2",
-        "de": "Dienstname 2"
+        "ru": "Дизайн интерфейсов мобильных приложений",
+        "en": "Mobile app interface design",
+        "de": "Design der Benutzeroberfläche für mobile Apps"
     },
     
     "service-description-2":{

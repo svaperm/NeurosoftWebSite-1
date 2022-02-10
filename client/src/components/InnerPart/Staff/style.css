@@ -187,3 +187,10 @@
 .project-img {
   width: 120px;
 }
+.personal-info-input {
+  border: none;
+  margin-left: 20px;
+}
+.personal-info-block {
+  display: block;
+}

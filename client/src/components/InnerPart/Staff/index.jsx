@@ -30,10 +30,44 @@ export const Staff = () => (
 
     <div className="personal-info">
       <Card title={texts['contact-info'][lang]} bordered={false}>
-        <p>{texts['name'][lang] + ': Геннадий'}</p>
-        <p>{texts['lastname'][lang] + ': Вахрушев'}</p>
-        <p>{texts['contact-email'][lang] + ': gennadiy@gmail.com'}</p>
-        <p>{texts['phone'][lang] + ': +7 777 777 77 77'}</p>
+        <label htmlFor={texts['name'][lang]} className="personal-info-block">
+          {texts['name'][lang]}
+          <input
+            name={texts['name'][lang]}
+            placeholder="Геннадий"
+            className="personal-info-input"
+          />
+        </label>
+        <label
+          htmlFor={texts['lastname'][lang]}
+          className="personal-info-block"
+        >
+          {texts['lastname'][lang]}
+          <input
+            name={texts['lastname'][lang]}
+            placeholder="Вахрушев"
+            className="personal-info-input"
+          />
+        </label>
+        <label
+          htmlFor={texts['contact-email'][lang]}
+          className="personal-info-block"
+        >
+          {texts['contact-email'][lang]}
+          <input
+            name={texts['contact-email'][lang]}
+            placeholder="gennadiy@gmail.com"
+            className="personal-info-input"
+          />
+        </label>
+        <label htmlFor={texts['phone'][lang]} className="personal-info-block">
+          {texts['phone'][lang]}
+          <input
+            name={texts['phone'][lang]}
+            placeholder="+7 777 777 77 77"
+            className="personal-info-input"
+          />
+        </label>
       </Card>
 
       <Avatar size={150} icon={<UserOutlined />} style={{ margin: 'auto' }} />

@@ -52,11 +52,14 @@
   letter-spacing: 0.08em;
   color: #000000;
   cursor: pointer;
-  transition: .2s;
+  transition: 0.2s;
   border: none;
 }
 .solution-btn:hover {
   background-color: rgba(255, 219, 146, 0.89);
+}
+.solutions .ant-card-head-title {
+  white-space: pre-wrap !important;
 }
 @media (max-width: 1400px) {
   .solution-title {
@@ -95,7 +98,7 @@
     margin-bottom: 60px;
   }
 }
-@media (max-width: 450px) { 
+@media (max-width: 450px) {
   .solution-title {
     font-size: 24px;
     margin-bottom: 10px;
@@ -107,7 +110,7 @@
   .solution-description {
     font-size: 14px;
   }
-  .solution-btn{
+  .solution-btn {
     width: 160px;
     height: 40px;
     font-size: 14px;

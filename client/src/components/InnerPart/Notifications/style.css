@@ -12,23 +12,23 @@
   margin-left: 5%;
 }
 .notifications-container {
-  background: #F2F2F2;
+  background: #f2f2f2;
   border-radius: 5px;
 
   margin: 1%;
   padding: 1%;
 }
 
-.notifications-search-container{
+.notifications-search-container {
   height: 50%;
-  width: 20%;
+  width: 40%;
   display: flex;
   align-content: flex-start;
   flex-wrap: wrap;
   overflow-y: auto;
 }
 
-.sort-select{
+.sort-select {
   background: rgba(196, 196, 196, 0.59);
   border-radius: 15px;
   display: flex;
@@ -38,7 +38,7 @@
   margin-bottom: 5%;
 }
 
-.visitor-img{
+.visitor-img {
   background-image: url(../../../../public/user.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -46,54 +46,49 @@
   height: min(8vh, 6vw);
 }
 
-.visitors{
+.visitors {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
 
-.visitor-info{
+.visitor-info {
   height: 5vw;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 
-.type{
+.type {
   font-size: 18px;
   border-radius: 15px;
-
   text-align: center;
-  border: none; 
+  border: none;
   outline: none;
-
   background: rgba(242, 242, 242, 0);
-  transition: .15s;
+  transition: 0.15s;
+  cursor: pointer;
 }
 
-.type:hover{
-  background: rgba(242, 242, 242, 0.5);
-  font-size: 20px;
-}
-
-.notification-type{
+.notification-type {
   display: flex;
   width: 100%;
-  height: 100%;  
+  height: 100%;
   justify-content: space-evenly;
-
+  margin-bottom: 50px;
   background: rgba(196, 196, 196, 0.59);
-  border-radius: 15px;
+  border-radius: 4px;
+  margin-top: 30px;
 }
 
-.notification-info{
+.notification-info {
   display: flex;
   flex-direction: column;
   width: 80%;
   height: 20%;
 }
 
-.info-field{
+.info-field {
   background: rgba(196, 196, 196, 0.59);
   border-radius: 15px;
   height: 100%;
@@ -101,47 +96,74 @@
   margin-left: 10px;
 }
 
-.notif-page{
+.notif-page {
   display: flex;
   flex-wrap: wrap;
   font-size: 18px;
+  padding-bottom: 100px;
+}
+.notif-page .ant-form-item-label {
+  width: 300px;
 }
 
-.info{
+.info {
   height: 4vh;
   margin: 1%;
   display: flex;
   align-items: center;
 }
 
-.service-info, .vacancy-info{
+.service-info,
+.vacancy-info {
   width: 100%;
 }
 
-.lastname-info, .phone-info, .resume-info{
+.lastname-info,
+.phone-info,
+.resume-info {
   width: 40%;
 }
 
-.name-info, .city-info{
+.name-info,
+.city-info {
   width: 27%;
 }
 
-.email-info{
+.email-info {
   width: 56%;
 }
 
-.notes-info, .q-info, .letter-info{
+.notes-info,
+.q-info,
+.letter-info {
   flex-direction: column;
   width: 100%;
   height: 20vh;
   align-items: flex-start;
 }
 
-.info-textarea{
+.info-textarea {
   margin-left: 0;
   resize: none;
 }
 
-.email-info-q{
+.email-info-q {
   width: 100%;
+}
+.notifications-container .ant-card {
+  width: 100%;
+}
+.notifications-container .ant-list-item-meta-title {
+  font-size: 14px;
+}
+.notifications-container .ant-card-body {
+  padding: 10px;
+}
+.notifications-container .ant-list {
+  height: 600px !important;
+  overflow-y: hidden !important;
+}
+.notification-info .ant-form {
+  width: 100%;
+  padding: 30px;
 }

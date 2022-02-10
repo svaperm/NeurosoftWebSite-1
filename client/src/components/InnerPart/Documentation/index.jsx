@@ -1,89 +1,68 @@
 import './style.css';
 
-import texts from './texts.json'
+import texts from './texts.json';
 import DetectLanguage from '../../../functions/detectLang';
+import { Card } from 'antd';
+import pdf from './../../../pdf-test.pdf';
 
 const lang = DetectLanguage();
 
 export const Documentation = () => (
   <div className="documentation">
-    <div className="documentation-container">
-        <div className="documentation-container-title">{texts['shared-documents'][lang]}</div>
+    <Card title={texts['shared-documents'][lang]} style={{ marginBottom: 80 }}>
+      <ul>
+        {[...new Array(5)].map((val) => (
+          <li className="document">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              download
+              className="filename"
+              href={pdf}
+            >
+              Filename
+            </a>
+          </li>
+        ))}
+      </ul>
+    </Card>
 
-        
-        <li className='document'>
-          <a className='filename' href=''>Filename</a>
-        </li>
+    <Card title={texts['technologies'][lang]} style={{ marginBottom: 80 }}>
+      <ul>
+        {[
+          [...new Array(5)].map((val) => (
+            <li className="document">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                download
+                className="filename"
+                href={pdf}
+              >
+                Filename
+              </a>
+            </li>
+          )),
+        ]}
+      </ul>
+    </Card>
 
-        <li className='document'>
-          <a className='filename' href=''>Filename</a>
-        </li>
-
-        <li className='document'>
-          <a className='filename' href=''>Filename</a>
-        </li>
-
-        <li className='document'>
-          <a className='filename' href=''>Filename</a>
-        </li>
-
-        <li className='document'>
-          <a className='filename' href=''>Filename</a>
-        </li>
-
-      </div>
-
-      <div className="documentation-container">
-        <div className="documentation-container-title">{texts['technologies'][lang]}</div>
-
-        
-        <li className='document'>
-          <a className='filename' href=''>Filename</a>
-        </li>
-
-        <li className='document'>
-          <a className='filename' href=''>Filename</a>
-        </li>
-
-        <li className='document'>
-          <a className='filename' href=''>Filename</a>
-        </li>
-
-        <li className='document'>
-          <a className='filename' href=''>Filename</a>
-        </li>
-
-        <li className='document'>
-          <a className='filename' href=''>Filename</a>
-        </li>
-
-      </div>
-
-      <div className="documentation-container">
-        <div className="documentation-container-title">{texts['eLibrary'][lang]}</div>
-
-        
-        <div className='book' href=''>
-          <a className='bookname' href=''>bookname</a>
-        </div>
-
-        <li className='book'>
-          <a className='bookname' href=''>bookname</a>
-        </li>
-
-        <li className='book'>
-          <a className='bookname' href=''>bookname</a>
-        </li>
-
-        <li className='book'>
-          <a className='bookname' href=''>bookname</a>
-        </li>
-
-        <li className='book'>
-          <a className='bookname' href=''>bookname</a>
-        </li>
-
-      </div>
+    <Card title={texts['eLibrary'][lang]} style={{ marginBottom: 80 }}>
+      <ul style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+        {[...new Array(5)].map((val) => (
+          <li className="book">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              download
+              className="bookname"
+              href={pdf}
+            >
+              bookname
+            </a>
+          </li>
+        ))}
+      </ul>
+    </Card>
   </div>
 );
-
