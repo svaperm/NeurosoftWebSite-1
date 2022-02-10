@@ -41,10 +41,7 @@ export const InnerMain = () => (
           <div className="project-name">{texts['project-name-3'][lang]}</div>
           <div className="project-img project-img-3"></div>
         </Card>
-        <Card style={{ marginTop: 20 }}>
-          <div className="project-name">{texts['project-name-4'][lang]}</div>
-          <div className="project-img project-img-4"></div>
-        </Card>
+  
       </div>
     </Card>
   </div>

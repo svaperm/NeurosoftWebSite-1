@@ -12,9 +12,9 @@
     },
     
     "service-title-1":{
-        "ru": "Транзакционные системы",
-        "en": "Transaction systems",
-        "de": "Transaktionssysteme"
+        "ru": "Аналитика данных",
+        "en": "Data Analytics",
+        "de": "Datenanalyse"
     },
     
     "service-description-1":{
@@ -24,9 +24,9 @@
     },
     
     "service-title-2":{
-        "ru": "Дизайн интерфейсов мобильных приложений",
-        "en": "Mobile app interface design",
-        "de": "Design der Benutzeroberfläche für mobile Apps"
+        "ru": "Моделирование процессов",
+        "en": "Process Modeling",
+        "de": "Prozessmodellierung"
     },
     
     "service-description-2":{
@@ -36,9 +36,9 @@
     },
     
     "service-title-3":{
-        "ru": "Название услуги 3",
-        "en": "Service name 3",
-        "de": "Dienstname 3"
+        "ru": "Научные исследования в области ИИ",
+        "en": "Scientific research in the field of AI",
+        "de": "Wissenschaftliche Forschung im Bereich KI"
     },
     
     "service-description-3":{
@@ -48,9 +48,9 @@
     },
     
     "service-title-4":{
-        "ru": "Название услуги 4",
-        "en": "Service name 4",
-        "de": "Dienstname 4"
+        "ru": "Разработка программного обеспечения",
+        "en": "Software Development",
+        "de": "Software-Entwicklung"
     },
     
     "service-description-4":{

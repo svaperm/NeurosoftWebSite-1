@@ -4,6 +4,9 @@
   padding-top: 5%;
   position: relative;
 }
+.support a {
+  display: block;
+}
 
 .support-hero {
   height: calc(40vh - 80px);

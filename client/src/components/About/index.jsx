@@ -9,8 +9,7 @@ const lang = DetectLanguage();
 export const About = () => (
   <div className="about">
     <div className="about-hero">
-      <h1 className="mission">{texts['mission'][lang]}</h1>
-      <span className="about-subtitle">{texts['subtitle'][lang]}</span>
+      <h1 className="mission">{texts['subtitle'][lang]}</h1>
     </div>
 
     <div className="about-container">

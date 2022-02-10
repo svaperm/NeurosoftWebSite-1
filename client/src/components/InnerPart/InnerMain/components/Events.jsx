@@ -7,16 +7,8 @@ const lang = DetectLanguage();
 
 const data = [
   {
-    title: 'Ant Design Title 1',
-  },
-  {
-    title: 'Ant Design Title 2',
-  },
-  {
-    title: 'Ant Design Title 3',
-  },
-  {
-    title: 'Ant Design Title 4',
+    title:
+      'С 10.02.2022 запущен корпоративный сайт компании. Все вопросы и замечания можно оставить в разделе “Вопросы”',
   },
 ];
 
@@ -31,8 +23,7 @@ function Events(props) {
           <List.Item>
             <List.Item.Meta
               avatar={<Avatar icon={<UserOutlined />} size={64} />}
-              title={<a href="https://ant.design">{item.title}</a>}
-              description="Ant Design, a design language for background applications, is refined by Ant UED Team"
+              title={item.title}
             />
           </List.Item>
         )}

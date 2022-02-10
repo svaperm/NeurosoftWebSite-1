@@ -21,9 +21,29 @@ export const Support = () => (
         backgroundColor: 'rgba(242, 242, 242, 0.5)',
         fontSize: '20px',
         marginBottom: 50,
+        display: "flex",
+        flexDirection: "column"
       }}
     >
       <p>{texts['q-text-1'][lang]}</p>
+      <a href="https://cloud.mail.ru/public/Ayg5/pgrGFPe5h">
+        https://cloud.mail.ru/public/Ayg5/pgrGFPe5h
+      </a>
+      <a href="https://cloud.mail.ru/public/DySa/4rHPnNcGZ">
+        https://cloud.mail.ru/public/DySa/4rHPnNcGZ
+      </a>
+      <a href="https://cloud.mail.ru/public/ATSa/LPXdGZM3c">
+        https://cloud.mail.ru/public/ATSa/LPXdGZM3c
+      </a>
+      <a href="https://cloud.mail.ru/public/5jDt/LLPHJ3auu">
+        https://cloud.mail.ru/public/5jDt/LLPHJ3auu
+      </a>
+      <a href="https://cloud.mail.ru/public/azBd/SZTYqr8bq">
+        https://cloud.mail.ru/public/azBd/SZTYqr8bq
+      </a>
+      <a href="https://cloud.mail.ru/public/36r9/hpgnZVSHr">
+        https://cloud.mail.ru/public/36r9/hpgnZVSHr
+      </a>
     </Card>
     <Card
       title={texts['q-title-2'][lang]}

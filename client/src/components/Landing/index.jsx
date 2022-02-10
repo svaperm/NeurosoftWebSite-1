@@ -9,7 +9,9 @@ export const Landing = () => (
   <div className="landing">
     <div className="landing-hero">
       <h1 className="landing-title">{texts['title'][lang]}</h1>
-      <span className="landing-subtitle hero-subtitle">{texts['subtitle'][lang]}</span>
+      <span className="landing-subtitle hero-subtitle">
+        {texts['subtitle'][lang]}
+      </span>
       <div className="hero-world"></div>
     </div>
     <Card
@@ -18,16 +20,19 @@ export const Landing = () => (
     >
       <div className="landing-services">
         <div className="landing-services-item">
-          <div className="service-img service-img-1"></div>
+          <div className="service-img service-img-1"></div>Аналитика данных
         </div>
         <div className="landing-services-item">
-          <div className="service-img service-img-2"></div>
+          <div className="service-img service-img-2"></div> Моделирование
+          процессов
         </div>
         <div className="landing-services-item">
-          <div className="service-img service-img-3"></div>
+          <div className="service-img service-img-3"></div> Научные исследования
+          в области ИИ
         </div>
         <div className="landing-services-item">
           <div className="service-img service-img-4"></div>
+          Разработка программного обеспечения
         </div>
       </div>
     </Card>

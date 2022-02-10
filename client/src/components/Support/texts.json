@@ -6,15 +6,15 @@
     },
 
     "q-title-1":{
-        "ru": "Вопрос 1",
-        "en": "Question 1",
-        "de": "Frage 1"
+        "ru": "Где можно получить доступ к существующим разработкам?",
+        "en": "Where can I access existing developments?",
+        "de": "Wo kann ich auf bestehende Entwicklungen zugreifen?"
     },
 
     "q-text-1":{
-        "ru": "Тут будет написан полный и развёнутый ответ на заданный вопрос Тут будет написан полный и развёнутый ответ на заданный вопрос Тут будет написан полный и развёнутый ответ на заданный вопрос",
-        "en": "Here will be written a full and detailed answer to the question asked Here will be written a full and detailed answer to the question asked Here will be written a full and detailed answer to the question asked",
-        "de": "Hier wird eine vollständige und detaillierte Antwort auf die gestellte Frage geschrieben Hier wird eine vollständige und detaillierte Antwort auf die gestellte Frage geschrieben Hier wird eine vollständige und detaillierte Antwort auf die gestellte Frage geschrieben"
+        "ru": "Указанные разработки доступны по следующим ссылкам:",
+        "en": "These developments are available at the following links",
+        "de": "Diese Entwicklungen sind unter den folgenden Links verfügbar"
     },
 
     "q-title-2":{
