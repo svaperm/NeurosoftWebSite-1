@@ -44,15 +44,15 @@ const Header = () => {
             {!authorized ? texts['sign-in'][lang] : texts['sign-out'][lang]}
           </Button>
 
-          <Select
-            style={{ width: 120 }}
+          <select
+            className="lang-select"
             onChange={ChangeLanguage}
-            defaultValue={window.sessionStorage.getItem('lang')}
+            value={window.sessionStorage.getItem('lang')}
           >
-            <Option value="ru">RU</Option>
-            <Option value="en">EN</Option>
-            <Option value="de">DE</Option>
-          </Select>
+            <option value="ru">RU</option>
+            <option value="en">EN</option>
+            <option value="de">DE</option>
+          </select>
 
           {authorized ? (
             <Link
